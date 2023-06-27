@@ -1,0 +1,6 @@
+{
+    "manifest_version": 3,
+    "name": "GDPR Compliance Checker",
+    "description": "Checks GDPR Compliance",
+    "version": "1.0"
+}
