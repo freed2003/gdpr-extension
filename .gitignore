@@ -1,1 +1,4 @@
 backend/venv
+backend/currentplugin
+backend/__pycache__
+backend/CHKPLUG

@@ -2,3 +2,4 @@ flask
 selenium
 beautifulsoup4
 requests
+webdriver-manager
