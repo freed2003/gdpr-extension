@@ -1,4 +1,4 @@
-from webpress import parse_plugins, get_download, download_unzip
+from wordpress.webpress import parse_plugins, get_download, download_unzip
 
 
 
