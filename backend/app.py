@@ -1,5 +1,5 @@
 from flask import Flask, request
-
+from api import wpcheck, policycheck
 
 app = Flask(__name__)
 
@@ -12,3 +12,4 @@ def check():
     url = args.get("url")
     wpcheck = wpcheck(url)
     policycheck = policycheck(url)
+    return res
