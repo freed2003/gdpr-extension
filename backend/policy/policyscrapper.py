@@ -21,11 +21,12 @@ def gethtml(url: str) -> str:
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
     driver.get(url)
     text = driver.find_element("tag name", "body").get_attribute("innerHTML")
-    with open("temp.txt", "w", encoding="utf-8") as f:
-        f.write(text)
+    return text
 def parse(url: str) -> str:
-    gethtml(getpolicyurl(url))
-    pp = Preprocessor("temp.txt")
+    text = gethtml(getpolicyurl(url))
+    with open("temp", "w", encoding="UTF-8") as f:
+        f.write(text)
+    pp = Preprocessor("temp")
     return "\n".join(pp.parse())
 
 print(parse("https://google.com"))
