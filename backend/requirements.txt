@@ -3,3 +3,6 @@ selenium
 beautifulsoup4
 requests
 webdriver-manager
+html2text
+langid
+roman

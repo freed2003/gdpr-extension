@@ -1,0 +1,3983 @@
+
+    <div id="MktContent">
+      <header class="
+    SiteHeader
+    SiteHeader--noTransitions
+    SiteHeader--hasContactSales
+    
+    SiteHeader--excludesNav
+    
+    
+    
+    
+    
+    SiteHeader--hasGuides
+  " data-js-controller="SiteHeader">
+  <div class="SiteHeader__stickyContainer" data-js-target="SiteHeader.stickyContainerEl">
+    <div class="SiteHeader__stickyShadow" data-js-target="SiteHeader.stickyShadowEl"></div>
+    
+    <div class="SiteHeader__guidesContainer">
+      <div class="
+    Guides
+    SiteHeader__guides
+  " aria-hidden="true">
+  <div class="Guides__container">
+    <div class="Guides__guide"></div>
+    <div class="Guides__guide"></div>
+    <div class="Guides__guide"></div>
+    <div class="Guides__guide"></div>
+    <div class="Guides__guide"></div>
+  </div>
+</div>
+    </div>
+    
+    <div class="SiteHeader__container">
+      <div class="SiteHeader__navContainer">
+        <h1 class="SiteHeader__logo">
+          <a href="/" class="SiteHeader__logoLink" data-js-controller="AnalyticsButton" data-analytics-category="Navigation" data-analytics-action="Clicked" data-analytics-label="Stripe Logo" data-testid="header-stripe-logo">
+            <svg viewBox="0 0 60 25" xmlns="http://www.w3.org/2000/svg" width="60" height="25" class="UserLogo variant-- "><title>Stripe logo</title><path fill="var(--userLogoColor, #0A2540)" d="M59.64 14.28h-8.06c.19 1.93 1.6 2.55 3.2 2.55 1.64 0 2.96-.37 4.05-.95v3.32a8.33 8.33 0 0 1-4.56 1.1c-4.01 0-6.83-2.5-6.83-7.48 0-4.19 2.39-7.52 6.3-7.52 3.92 0 5.96 3.28 5.96 7.5 0 .4-.04 1.26-.06 1.48zm-5.92-5.62c-1.03 0-2.17.73-2.17 2.58h4.25c0-1.85-1.07-2.58-2.08-2.58zM40.95 20.3c-1.44 0-2.32-.6-2.9-1.04l-.02 4.63-4.12.87V5.57h3.76l.08 1.02a4.7 4.7 0 0 1 3.23-1.29c2.9 0 5.62 2.6 5.62 7.4 0 5.23-2.7 7.6-5.65 7.6zM40 8.95c-.95 0-1.54.34-1.97.81l.02 6.12c.4.44.98.78 1.95.78 1.52 0 2.54-1.65 2.54-3.87 0-2.15-1.04-3.84-2.54-3.84zM28.24 5.57h4.13v14.44h-4.13V5.57zm0-4.7L32.37 0v3.36l-4.13.88V.88zm-4.32 9.35v9.79H19.8V5.57h3.7l.12 1.22c1-1.77 3.07-1.41 3.62-1.22v3.79c-.52-.17-2.29-.43-3.32.86zm-8.55 4.72c0 2.43 2.6 1.68 3.12 1.46v3.36c-.55.3-1.54.54-2.89.54a4.15 4.15 0 0 1-4.27-4.24l.01-13.17 4.02-.86v3.54h3.14V9.1h-3.13v5.85zm-4.91.7c0 2.97-2.31 4.66-5.73 4.66a11.2 11.2 0 0 1-4.46-.93v-3.93c1.38.75 3.1 1.31 4.46 1.31.92 0 1.53-.24 1.53-1C6.26 13.77 0 14.51 0 9.95 0 7.04 2.28 5.3 5.62 5.3c1.36 0 2.72.2 4.09.75v3.88a9.23 9.23 0 0 0-4.1-1.06c-.86 0-1.44.25-1.44.9 0 1.85 6.29.97 6.29 5.88z" fill-rule="evenodd"></path></svg>
+          </a>
+        </h1>
+
+        
+      </div>
+    </div>
+    
+  </div>
+</header>
+
+
+<script>(() => {
+  function displayContentForState(state) {
+    document
+      .querySelectorAll(`template[data-mount-on-state="${state}"]`)
+      .forEach((template) => document
+        .querySelectorAll(template.dataset.mountTarget)
+        .forEach((target) => {
+          while (target.firstChild) target.removeChild(target.firstChild);
+          target.appendChild(template.content.cloneNode(true));
+        }));
+  }
+  const match = document.cookie.match(/(?:^|;) *site-auth=([^;]+);/);
+  displayContentForState(
+    match && match[1] === '1' ? 'logged-in' : 'logged-out'
+  );
+})();
+</script>
+  <section class="
+    Section
+    LegalPage__layout
+    theme--White
+    
+    
+    
+    Section--paddingNormal
+    
+    
+    Section--hasGuides
+    Section--hasStickyNav
+    
+    
+  " data-js-controller="LegalNavController">
+  <div class="Section__masked">
+    <div class="Section__backgroundMask">
+      <div class="
+        Section__background
+        
+      ">
+        
+        <div class="
+    Guides
+    
+  " aria-hidden="true">
+  <div class="Guides__container">
+    <div class="Guides__guide"></div>
+    <div class="Guides__guide"></div>
+    <div class="Guides__guide"></div>
+    <div class="Guides__guide"></div>
+    <div class="Guides__guide"></div>
+  </div>
+</div>
+      </div>
+      
+    </div>
+    <div class="Section__container">
+      <div class="Section__layoutContainer">
+        <div class="Section__layout">
+          
+            <div class="
+    RowLayout
+    
+    
+  ">
+  <div class="
+    ColumnLayout
+    
+    
+    
+    
+  " data-columns="1,3">
+  <nav>
+  <section class="
+    List
+    
+    
+    
+    
+  ">
+  <ul class="List__list">
+    
+      <li class="
+    List__item
+    ListItem
+    LegalNavItem
+    LegalNavItem--isTopLevel
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="/legal/ssa" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="legal_ssa">Stripe Services Agreement</a>
+  
+
+  
+</li>
+      
+    
+      
+        <li class="
+    List__item
+    ListItem
+    LegalNavItem
+    LegalNavItem--isTopLevel
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="/legal/connect-account" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="legal_navigation_connect_account">Stripe Connected Account Agreement</a>
+  
+
+  
+</li>
+      
+    
+      
+        <li class="
+    List__item
+    ListItem
+    LegalNavItem
+    LegalNavItem--isTopLevel
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="/legal/spc" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="legal_navigation_us_spc">Stripe Payments Company Terms</a>
+  
+
+  
+</li>
+      
+    
+      
+        <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    <h2 class="
+    CopyTitle
+    CopyTitle--variantDetail
+    CopyTitle--inline
+    
+    
+    
+  ">Acquirer Terms</h2>
+<section class="
+    List
+    
+    
+    
+    
+  ">
+  <ul class="List__list">
+    
+      <li class="
+    List__item
+    ListItem
+    LegalNavItem
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="/legal/crb" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="legal_navigation_us_crb_bank">Cross River Bank</a>
+  
+
+  
+</li>
+  
+    <li class="
+    List__item
+    ListItem
+    LegalNavItem
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="https://stripe.com/pnc/legal" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="legal_navigation_us_pnc">PNC Bank</a>
+  
+
+  
+</li>
+  
+    <li class="
+    List__item
+    ListItem
+    LegalNavItem
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="/legal/wells-fargo" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="legal_navigation_us_wells_fargo">Wells Fargo Bank</a>
+  
+
+  
+</li>
+    
+  </ul>
+  
+</section>
+  
+
+  
+</li>
+      
+    
+      
+        <li class="
+    List__item
+    ListItem
+    LegalNavItem
+    LegalNavItem--isTopLevel
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="/legal/celtic-spend-card" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="legal_navigation_us_issuing_bank_terms">Issuing Bank Terms</a>
+  
+
+  
+</li>
+      
+    
+      
+        <li class="
+    List__item
+    ListItem
+    LegalNavItem
+    LegalNavItem--isTopLevel
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="/legal/payment-terms" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="legal_navigation_payment_terms">Payment Method Terms</a>
+  
+
+  
+</li>
+      
+    
+      
+        <li class="
+    List__item
+    ListItem
+    LegalNavItem
+    LegalNavItem--isTopLevel
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="/legal/bank-debit-authorizations" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="legal_navigation_bank_authorizations">User Bank Debit Authorizations</a>
+  
+
+  
+</li>
+      
+    
+      
+        <li class="
+    List__item
+    ListItem
+    LegalNavItem
+    LegalNavItem--isTopLevel
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="https://stripe.com/restricted-businesses" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="legal_navigation_us_restricted_businesses">Restricted Businesses</a>
+  
+
+  
+</li>
+      
+    
+      
+        <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    <h2 class="
+    CopyTitle
+    CopyTitle--variantDetail
+    CopyTitle--inline
+    
+    
+    
+  ">Other Products and Programs</h2>
+<section class="
+    List
+    
+    
+    
+    
+  ">
+  <ul class="List__list">
+    
+      <li class="
+    List__item
+    ListItem
+    LegalNavItem
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="/legal/terminal-device-eula" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="legal_navigation_terminal_device_eula">Stripe Terminal Device EULA</a>
+  
+
+  
+</li>
+  
+    <li class="
+    List__item
+    ListItem
+    LegalNavItem
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="/legal/terminal-purchase" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="legal_navigation_terminal_purchase">Stripe Terminal Purchase Terms</a>
+  
+
+  
+</li>
+  
+    <li class="
+    List__item
+    ListItem
+    LegalNavItem
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="/legal/terminal-reseller" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="legal_navigation_terminal_reseller">Stripe Terminal Reseller Terms</a>
+  
+
+  
+</li>
+  
+    <li class="
+    List__item
+    ListItem
+    LegalNavItem
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="/legal/atlas" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="legal_navigation_atlas">Stripe Atlas Agreement</a>
+  
+
+  
+</li>
+  
+    <li class="
+    List__item
+    ListItem
+    LegalNavItem
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="/legal/climate-contributions" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="legal_navigation_climate_contributions">Stripe Climate Contribution Terms</a>
+  
+
+  
+</li>
+    
+  </ul>
+  
+</section>
+  
+
+  
+</li>
+      
+    
+      
+        <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    <h2 class="
+    CopyTitle
+    CopyTitle--variantDetail
+    CopyTitle--inline
+    
+    
+    
+  ">Stripe Apps</h2>
+<section class="
+    List
+    
+    
+    
+    
+  ">
+  <ul class="List__list">
+    
+      <li class="
+    List__item
+    ListItem
+    LegalNavItem
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="/legal/app-developer-agreement" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="legal_navigation_app_developer_agreement">App Developer Agreement</a>
+  
+
+  
+</li>
+  
+    <li class="
+    List__item
+    ListItem
+    LegalNavItem
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="/legal/app-marketplace-agreement" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="legal_navigation_app_marketplace_agreement">App Marketplace Agreement</a>
+  
+
+  
+</li>
+    
+  </ul>
+  
+</section>
+  
+
+  
+</li>
+      
+    
+      
+        <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    <h2 class="
+    CopyTitle
+    CopyTitle--variantDetail
+    CopyTitle--inline
+    
+    
+    
+  ">Privacy</h2>
+<section class="
+    List
+    
+    
+    
+    
+  ">
+  <ul class="List__list">
+    
+      <li class="
+    List__item
+    ListItem
+    LegalNavItem
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="https://stripe.com/privacy" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="legal_naigation_us_privacy_privacy_policy">Privacy Policy</a>
+  
+
+  
+</li>
+  
+    <li class="
+    List__item
+    ListItem
+    LegalNavItem
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="https://stripe.com/cookies-policy/legal" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="legal_navigation_us_cookies_policy">Cookies Policy</a>
+  
+
+  
+</li>
+  
+    <li class="
+    List__item
+    ListItem
+    LegalNavItem
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="https://stripe.com/privacy-shield-policy" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="legal_navigation_us_privacy_privacy_shield_policy">Privacy Shield Policy</a>
+  
+
+  
+</li>
+  
+    <li class="
+    List__item
+    ListItem
+    LegalNavItem
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="https://stripe.com/service-providers/legal" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="legal_navigation_us_privacy_service_providers">Service Providers List</a>
+  
+
+  
+</li>
+  
+    <li class="
+    List__item
+    ListItem
+    LegalNavItem
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="/legal/dpa" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="legal_navigation_us_privacy_dpa">Data Processing Agreement</a>
+  
+
+  
+</li>
+  
+    <li class="
+    List__item
+    ListItem
+    LegalNavItem
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="https://stripe.com/privacy-center/legal" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="legal_navigation_us_privacy_privacy_center">Stripe Privacy Center</a>
+  
+
+  
+</li>
+    
+  </ul>
+  
+</section>
+  
+
+  
+</li>
+      
+    
+      
+        <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    <h2 class="
+    CopyTitle
+    CopyTitle--variantDetail
+    CopyTitle--inline
+    
+    
+    
+  ">Intellectual Property</h2>
+<section class="
+    List
+    
+    
+    
+    
+  ">
+  <ul class="List__list">
+    
+      <li class="
+    List__item
+    ListItem
+    LegalNavItem
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="https://stripe.com/ip-notice-process" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="legal_navigation_us_ip_notice">Intellectual Property Notice</a>
+  
+
+  
+</li>
+  
+    <li class="
+    List__item
+    ListItem
+    LegalNavItem
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="https://stripe.com/marks/legal" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="legal_navigation_us_ip_marks">Marks Usage</a>
+  
+
+  
+</li>
+    
+  </ul>
+  
+</section>
+  
+
+  
+</li>
+      
+    
+      
+        <li class="
+    List__item
+    ListItem
+    LegalNavItem
+    LegalNavItem--isTopLevel
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="/legal/e-sign-disclosure" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="legal_navigation_e-sign_disclosure">E-SIGN Disclosure</a>
+  
+
+  
+</li>
+      
+    
+      
+        <li class="
+    List__item
+    ListItem
+    LegalNavItem
+    LegalNavItem--isTopLevel
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="https://stripe.com/spc/licenses" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="legal_navigation_us_licenses">Licenses</a>
+  
+
+  
+</li>
+    
+  </ul>
+  
+</section>
+</nav>
+        <div class="
+    RowLayout
+    
+    
+  ">
+  <section class="
+    Copy
+    
+    variant--Hero
+    
+    
+  " style="
+    
+    
+    --paddingRight: var(--columnPaddingNormal);
+    
+    
+    
+    
+    
+    
+    
+  ">
+  
+  
+    <header class="Copy__header">
+      
+      
+      <h1 class="Copy__title">Privacy Policy</h1>
+    </header>
+  
+
+  
+
+  
+
+  
+</section>
+          
+          <main class="LegalContent">
+  <div class="
+    RowLayout
+    
+    
+  ">
+  <div class="RichTextContainer">
+          <h4 id="last-updated-january-24-2023">Last updated: January 24, 2023</h4><p>This Privacy Policy includes important information about your personal data and we encourage you to read it carefully.</p>
+        </div>
+      
+    
+      
+        <div class="RichTextContainer">
+          <h2 id="welcome"><strong>Welcome</strong></h2><p>We provide financial infrastructure for the internet. People use our services to enable their purchases and businesses of all sizes use our technology and services to accept payments, send payouts, and manage their businesses online. Stripe wants to be clear about our use of the Personal Data that is entrusted to us.</p><p>This Privacy Policy (“Policy”) describes the “Personal Data” that we collect about you, how we use it, how we share it, your rights and choices, and how you can contact us about our privacy practices. This Policy also outlines your data subject rights, including the right to object to some uses of your Personal Data by us. Please visit the <a class="
+    Link
+    
+  " href="https://stripe.com/privacy-center/legal" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">Stripe Privacy Center</a> for more information about our privacy practices.</p><p>“Stripe”, “we”, “our” or “us” means the Stripe entity responsible for the collection and use of Personal Data under this Privacy Policy. It differs depending on your jurisdiction. <a class="
+    Link
+    
+  " href="https://stripe.com/privacy-center/legal#which-stripe-entities-are-involved" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">Learn More</a>.</p><p>“Personal Data” means any information that relates to an identified or identifiable individual, and can include information that you provide to us and that we collect about you, such as when you engage with our Services (e.g. device information, IP address).</p><p>“Services” means the products and services that Stripe indicates are covered by this Policy, which may include Stripe-provided devices and apps. Our “Business Services” are Services provided by Stripe to entities (“Business Users”) who directly and indirectly provide us with “End Customer” Personal Data in connection with those Business Users’ own business and activities. Our “End User Services” are those Services which Stripe provides directly to people (rather than entities) for their own use.&nbsp;</p><p>“Sites” means Stripe.com and the other websites, apps and online services that Stripe indicates are covered by this Policy. Collectively, we refer to Sites, Business Services and End User Services as “Services”.</p><p>Depending on the context, “you” means End Customer, End User, Representative or Visitor:</p><ul>
+  
+    <li>When you directly use an End User Service for your personal use (such as when you sign up for Link, or make a payment to Stripe Climate in your personal capacity), we refer to you as an “End User.”</li>
+  
+    <li>When you do business with, or otherwise transact with, a Business User (e.g. when you buy a pair of shoes from a merchant that uses <a class="
+    Link
+    
+  " href="https://stripe.com/checkout" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">Stripe Checkout</a> for payment processing) but are not directly doing business with Stripe, we refer to you as an “End Customer.”</li>
+  
+    <li>When you are acting on behalf of an existing or potential Business User (e.g. you are a founder of a company, administer an account for a merchant who is a Business User, or receive an employee credit card from a Business User using Stripe Issuing), we refer to you as a “Representative.”</li>
+  
+    <li>When you visit a Site without being logged into a Stripe account or otherwise communicate with Stripe, we refer to you as a “Visitor.” (e.g. you send Stripe a message asking for more information because you are considering being a user of our products).</li>
+  
+</ul><p>Depending on the activity, Stripe acts as a “data controller” and/or “data processor (or service provider)” and for more information about this and on the Stripe entity that is responsible under this Policy, see <a class="
+    Link
+    
+  " href="https://stripe.com/legal/privacy-center#is-stripe-acting-as-a-data-controller-or-a-data-processor" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">here</a>.</p><p><a class="
+    Link
+    
+  " href="https://stripe.com/privacy#1-personal-data-that-we-collect-and-how-we-use-and-share-it" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">1. Personal Data that we collect and how we use and share it</a></p><p><a class="
+    Link
+    
+  " href="https://stripe.com/privacy#2-more-ways-we-collect-use-and-share-personal-data" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">2. More ways we collect, use and share Personal Data</a></p><p><a class="
+    Link
+    
+  " href="https://stripe.com/privacy#3-legal-bases-for-processing-data" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">3. Legal bases for processing data</a></p><p><a class="
+    Link
+    
+  " href="https://stripe.com/privacy#4-your-rights-and-choices" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">4. Your rights and choices</a></p><p><a class="
+    Link
+    
+  " href="https://stripe.com/privacy#5-security-and-retention" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">5. Security and retention</a></p><p><a class="
+    Link
+    
+  " href="https://stripe.com/privacy#6-international-data-transfers" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">6. International data transfers</a></p><p><a class="
+    Link
+    
+  " href="https://stripe.com/privacy#7-updates-and-notifications" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">7. Updates and notifications</a></p><p><a class="
+    Link
+    
+  " href="https://stripe.com/privacy#8-jurisdiction-specific-provisions" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">8. Jurisdiction-specific provisions</a></p><p><a class="
+    Link
+    
+  " href="https://stripe.com/privacy#9-contact-us" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">9. Contact us</a></p>
+        </div>
+      
+    
+      
+        <div class="RichTextContainer">
+          <h2 id="1-personal-data-that-we-collect-and-how-we-use-and-share-it"><strong>1. Personal Data that we collect and how we use and share it</strong></h2><p>Our collection and use of Personal Data changes depending on whether you are acting as End User, End Customer, Representative or Visitor and our different Services.&nbsp; For example, if you are the sole owner of a business (i.e., sole proprietorship), we may collect Personal Data to onboard your business, but you may also be an End Customer that purchased goods from another Business User that uses Stripe’s Services for payment processing and you may also be an End User who uses Link to make those purchases.&nbsp;&nbsp;</p><p>“<strong>Transaction Data</strong>” as used in this Privacy Policy includes Personal Data, and may include the following: your name, email address, billing address, shipping address, payment method information (such as credit or debit card number, bank account information or payment card image selected by you), merchant and location, purchase amount, date of purchase, and in some cases, some information about what you have purchased and your phone number and past purchases.</p><h3 id="1-1-end-users"><strong>1.1 End Users</strong></h3><p>We provide End User Services where we do not act as a service provider or processor to Businesses but instead provide the Services directly to you for your personal use (e.g. Link). We provide more information about our collection, use and sharing of Personal Data in our <a class="
+    Link
+    
+  " href="https://stripe.com/privacy-center/legal" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">Privacy Center</a>, including the <a class="
+    Link
+    
+  " href="https://stripe.com/privacy-center/legal#end-users" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">legal bases</a> which we rely on for using (processing) your Personal Data.</p><p><strong>a. Personal Data that we collect about End Users</strong></p><ul>
+  
+    <li><strong>Using Link or Connecting your Bank Account.</strong> Stripe offers you the opportunity to store your payment methods with Stripe so that you can conveniently use it across merchants who are our Business Users (“Link” was formerly known as “Remember Me”). When you opt in to Link, you agree to let us store your Personal Data such as your payment method so that you can more readily make purchases through Link with Business Users of our payment processing Business Services (e.g. name, contact information, payment method details (e.g. card number, cvc, and expiration date)). When you choose to pay with Link, we will also collect Transaction Data related to your transactions. <a class="
+    Link
+    
+  " href="https://stripe.com/privacy-center/legal#link" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">Learn More</a>.<ul>
+  
+    <li>If you choose to share bank account information (including for use in Link) with us, Stripe will periodically collect and process your account information (e.g. bank account owner information, account balances, account number and details, account transactions and, in some cases, credentials). With your separate permission, we will share this Personal Data with Business Users that you choose.&nbsp; You can ask us to stop collecting and sharing this information.&nbsp; <a class="
+    Link
+    
+  " href="https://support.stripe.com/how-to-disconnect-a-linked-financial-account" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">Learn More</a>.&nbsp;&nbsp;&nbsp;</li>
+  
+    <li>With your separate permission, we will share contact information (e.g. shipping address, billing address and phone number) with Business Users that you do business with.&nbsp;</li>
+  
+</ul></li>
+  
+    <li><strong>Paying Stripe.</strong> If you are buying goods or services directly from Stripe, we receive Transaction Data. For example, when you make a payment to Stripe Climate, we will collect contact information, payment method information, and information about that transaction.</li>
+  
+    <li>I<strong>dentity/Verification Services.</strong> We provide an identity verification service that automates comparing an identity document with your image (e.g., selfie).&nbsp; You may choose to opt-in to allow us to store that verification for future use across other merchants and/or separately consent to letting us use your biometric data to improve our verification technology. You can also ask us to stop providing you these services.&nbsp; <a class="
+    Link
+    
+  " href="https://support.stripe.com/questions/common-questions-about-stripe-identity#verification-consent" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">Learn More</a>.&nbsp;</li>
+  
+    <li><strong>More. </strong>Please see <a class="
+    Link
+    
+  " href="https://stripe.com/privacy#2-more-ways-we-collect-use-and-share-personal-data" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">below</a> for information about additional types of Personal Data that we may collect about End Users, including about your online activity and how you engage with our End User Services.&nbsp;&nbsp;</li>
+  
+</ul><p><strong>b. How we use and share Personal Data of End Users</strong></p><ul>
+  
+    <li><strong>Services.</strong> We use your Personal Data to provide the End User Service to you, including security, sanctions screening, delivery, support, personalization (e.g. language preferences and settings choices) and messages related to the End User Service (e.g. communicating Policy updates and information about our Services). For example, we will use Personal Data to assess whether your use of Link to make a payment with a merchant is authorized by you (and not a bad actor) and likely to be successfully authorized by the payment method you choose to use when you choose to make purchases with Link.</li>
+  
+    <li><strong>Our Business Users.</strong> When you choose to connect your financial account with Stripe you may also choose to share account information with Business Users that you do business with. These Business Users will have their own privacy policies which describe how they use that information.</li>
+  
+    <li><strong>Transactions.</strong> For payment transactions with Link, End User Personal Data is shared with others to enable or “process” the transaction. For example, when you choose to use a payment method for the transaction with Stripe or with Link (e.g. credit card, debit card, buy now pay later, or direct debit), the third party provider of your payment method will receive Transaction Data that includes your Personal Data. When you use Link, the merchant you choose to do business with will also receive Transaction Data that includes your Personal Data and, with your separate consent, your bank account information. Please review the privacy policies of your payment method and the merchants who you choose to learn more about their processing of your Personal Data.&nbsp;&nbsp;</li>
+  
+    <li><strong>Fraud Detection and Loss Prevention.</strong> We use your Personal Data collected across our Services (e.g. Stripe Radar) to detect fraud and prevent financial losses for you, us, and our Business Users and financial partners, including to detect unauthorized purchases. <a class="
+    Link
+    
+  " href="https://stripe.com/legal/privacy-center#from-where-does-stripe-collect-information-used-for-fraud-prevention-and-security-purposes" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">Learn More</a>. We may provide Business Users and financial partners (including card issuers, payment methods and others involved in payment processing activities) that use our fraud Business Services with Personal Data about you (including your attempted transactions) so that they can assess the associated fraud or loss risk with a transaction. You can learn more about how we may use technology to assess the fraud risk associated with an attempted transaction and what information we share with Business Users <a class="
+    Link
+    
+  " href="https://stripe.com/docs/radar/reviews/risk-insights" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">here</a>.&nbsp;</li>
+  
+    <li><strong>Advertising.</strong> We may use your Personal Data to assess your eligibility for, and offer you, other End User Services or promote existing End User Services. Where allowed by law (including with your opt-in consent where required), we use and share End User Personal Data with others so that we may market our End User Services to you, including through interest-based advertising. See our <a class="
+    Link
+    
+  " href="https://stripe.com/cookies-policy/legal" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">Cookie Policy</a>.&nbsp;<ul>
+  
+    <li>We do not sell or share End User Personal Data with third parties for marketing or advertising their products without your separate consent.</li>
+  
+</ul></li>
+  
+    <li><strong>More.</strong> Please see <a class="
+    Link
+    
+  " href="https://stripe.com/privacy#2-more-ways-we-collect-use-and-share-personal-data" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">below</a> for information about additional ways in which we may use and share your Personal Data.</li>
+  
+</ul><h3 id="1-2-end-customers"><strong>1.2 End Customers</strong></h3><p>Stripe offers Business Services to our Business Users (e.g. payment processing through in-person or online checkout, or processing pay-outs for those Business Users). When we are acting as a Business User’s service provider (also known as a data processor), we will process Personal Data in accordance with the terms of our agreement with the Business User and the Business User’s lawful instructions (e.g. when we process a payment for a Business User because you bought a product from them) or they instruct us to send funds to you.&nbsp;</p><p>Business Users are responsible for making sure that their End Customers’ privacy rights are respected, including ensuring appropriate disclosures about data collection and use that happens in connection with their products and services. If you are an End Customer, please refer to the privacy policy or notice of the Business User you choose to do business with for information regarding their privacy practices, choices and controls.&nbsp; We provide more information about our collection, use and sharing of Personal Data in our <a class="
+    Link
+    
+  " href="https://stripe.com/privacy-center/legal" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">Privacy Center</a>, including the <a class="
+    Link
+    
+  " href="https://stripe.com/privacy-center/legal#end-customers" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">legal bases</a> which we rely on for using (processing) your Personal Data.</p><p><strong>a. Personal Data that we collect about End Customers</strong></p><ul>
+  
+    <li><strong>Transaction Data.</strong> If you are an End Customer, when you make payments to, get refunds from, begin a purchase, make a donation or otherwise transact with a Business User that uses us to provide payment processing Business Services, we will receive Transaction Data. We may also receive your transaction history with the Business User. <a class="
+    Link
+    
+  " href="https://stripe.com/legal/privacy-center#end-customers" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">Learn More</a>. Moreover, we may obtain information typed into a checkout form, even if you choose not to complete the form or purchase with the Business User. <a class="
+    Link
+    
+  " href="https://stripe.com/legal/privacy-center#promotional-emails-feature" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">Learn More</a>.</li>
+  
+    <li><strong>Identity/Verification Information.</strong> Stripe provides a verification and fraud prevention Service that allows a Business User to verify Personal Data about you, such as your age (when purchasing age restricted goods) or your authorization to use a payment method. As part of these Services, you will be asked to share Personal Data with us for this purpose (e.g., your government ID, your image (selfie), and Personal Data you input or that is apparent from the physical payment method (e.g. credit card image)). To protect against fraud, we may compare this information with information about you we collect from Business Users, financial partners, business partners, identity verification services, publicly available sources, and other third party service providers and sources so that we can assess whether the person is likely to be you or a person purporting to be you. <a class="
+    Link
+    
+  " href="https://stripe.com/privacy-center/legal#stripe-identity" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">Learn More</a>.</li>
+  
+    <li><strong>More.</strong> Please see <a class="
+    Link
+    
+  " href="https://stripe.com/privacy#2-more-ways-we-collect-use-and-share-personal-data" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">below</a> for information about additional types of Personal Data that we may collect, including your online activity.</li>
+  
+</ul><p><strong>b. How we use and share Personal Data of End Customers</strong></p><p>To provide our Business Services to our Business Users, we use Personal Data, and share Personal Data of a Business User’s End Customers with the Business User.&nbsp; Where allowed, we also use End Customers’ Personal Data for Stripe’s own purposes to secure, improve and provide our Business Services and prevent fraud, loss and other harms as described below.</p><ul>
+  
+    <li><strong>Payments and Accounting.</strong> We use your Transaction Data to provide our Payments related Business Services to Business Users, including to process online payment transactions, to calculate applicable sales tax, to invoice and bill, and to help them calculate their revenue, pay their bills and perform accounting tasks. <a class="
+    Link
+    
+  " href="https://stripe.com/legal/privacy-center#end-customers" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">Learn More</a>. We may also use Personal Data to provide and improve our Business Services.<ul>
+  
+    <li>For payment transactions, your Personal Data is shared with a number of parties in connection with your transaction. Because we act as a service provider or processor, we share Personal Data to enable the transaction. For example, when you choose to use a payment method for the transaction (e.g. credit card, debit card, buy now pay later, or direct debit), your payment method will receive the Transaction Data that includes your Personal Data. Please review your payment method’s privacy policy to learn more about how they use and share this information.</li>
+  
+    <li>The merchant you choose to do business with will also receive Transaction Data that includes your Personal Data and the merchant may share that Personal Data with others. Please review your merchant’s privacy policy to learn more.</li>
+  
+</ul></li>
+  
+    <li><strong>Financial Services.</strong> Some of our Business Users use our Services in order to offer financial services to you, through Stripe or its financial partners. For example, they may provide a card product that enables you to purchase goods and services. These cards may carry the Stripe brand, bank partner brand and/or the brands of Business Users. In addition to any Transaction Data we may produce or receive when these cards are used for purchases, we will also receive and use your Personal Data in order to provide and manage these products. Please also see the privacy policies of the Business User and our bank partners, if applicable, associated with the financial service (whose brands may be shown on the card).</li>
+  
+    <li>I<strong>dentity/Verification Services.</strong> We use Personal Data about your identity, including information provided by you and our service providers, to perform verification Services for Stripe or for the Business Users that you are doing business with, to reduce fraud and enhance security. If you provide a “selfie” along with an image of your identity document, we will use technology to compare and calculate whether they match and you can be verified. <a class="
+    Link
+    
+  " href="https://support.stripe.com/questions/common-questions-about-stripe-identity" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">Learn More</a>.</li>
+  
+    <li><strong>Fraud Detection and Loss Prevention.</strong> We use your Personal Data collected across our Services (e.g. Stripe Radar) to detect and prevent losses for you, us, our Business Users and financial partners. We may provide Business Users (including card issuers, payment methods and others involved in payment processing activities) that use our fraud Business Services with Personal Data about you (including your attempted transactions) so that they can assess the fraud or loss risk associated with a transaction. You can learn more about how we may use technology to assess the fraud and loss risk associated with an attempted transaction and what information we may share with Business Users about such risks <a class="
+    Link
+    
+  " href="https://stripe.com/docs/radar/reviews/risk-insights" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">here</a> and <a class="
+    Link
+    
+  " href="https://stripe.com/legal/privacy-center#how-does-stripe-use-personal-data-to-prevent-fraud" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">here</a>.</li>
+  
+    <li><strong>Our Business Users (their Authorized Third Parties).</strong> We share Personal Data of End Customers with their respective Business Users and with parties directly authorized by those Business Users to receive Personal Data. This includes sharing Personal Data of End Customers with Business Users when a Business User authorizes a third party application provider to access its Stripe account using Stripe Connect. For example, when the Business User uses Identity Services to verify an End Customer’s identity, Stripe shares with the Business User the information, documents or photos provided by the End Customer to verify their identity. The Business Users you choose to do business with may further share your Personal Data to third parties they authorize (e.g. other third party service providers). Please review their privacy policy to learn more.</li>
+  
+    <li><strong>Advertising by Business Users.</strong> If you have begun a purchase, we share Personal Data with that Business User in connection with our provision of Services and that Business User may use your Personal Data to market and advertise their products or services, subject to the terms of their privacy policy. Please review your merchant’s privacy policy to learn more, including your rights to stop their use of your Personal Data for marketing purposes.&nbsp;<ul>
+  
+    <li>We do not use, sell or share End Customer Personal Data for our marketing or advertising, or for marketing and advertising by third parties who are not the Business User with which you have transacted or attempted to transact.</li>
+  
+</ul></li>
+  
+    <li><strong>More.</strong> Please see <a class="
+    Link
+    
+  " href="https://stripe.com/privacy#2-more-ways-we-collect-use-and-share-personal-data" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">below</a> for information about additional ways in which we may use and share your Personal Data.</li>
+  
+</ul><h3 id="1-3-representatives"><strong>1.3 Representatives</strong></h3><p>To provide Business Services, we collect, use and share Personal Information from Representatives of Business Users (e.g. a business owner). We provide more information about our collection, use and sharing of Personal Data in our <a class="
+    Link
+    
+  " href="https://stripe.com/privacy-center/legal" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">Privacy Center</a>, including the <a class="
+    Link
+    
+  " href="https://stripe.com/privacy-center/legal#representatives" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">legal bases</a> which we rely on for using (processing) your Personal Data.</p><p><strong>a. Personal Data that we collect about Representatives</strong></p><ul>
+  
+    <li><strong>Registration and Contact Information.</strong> If you register for a Stripe account for a Business User (including incorporation of a Business), we collect your name and account log-in credentials. If you register for an event that Stripe organizes or attends or if you sign up for Stripe communications, we collect your registration and profile information. If you are a Representative or Representative of a potential Business User, we receive your Personal Data from third parties (including data providers) in order to advertise to, market and communicate with you as described further below and in Section 2. We may also associate a location with you in order to assess which Services or information may be useful to you. <a class="
+    Link
+    
+  " href="https://stripe.com/legal/privacy-center#does-stripe-collect-precise-location-data" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">Learn More</a>.&nbsp;</li>
+  
+    <li><strong>Identification Information.</strong> If you are an owner of a Business User or you are expected to be a shareholder, officer or director of a Business User, we require that you provide your contact details, such as name, postal address, telephone number, and email address to fulfill our financial partner and regulatory requirements. We will directly (and through others) collect Personal Data about you, such as your ownership interest in the Business User, your date of birth and government identifiers associated with you and your Business User (such as your social security number, tax number, or Employer Identification Number). You may also choose to provide bank account information.</li>
+  
+    <li><strong>More.</strong> Please see <a class="
+    Link
+    
+  " href="https://stripe.com/privacy#2-more-ways-we-collect-use-and-share-personal-data" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">below</a> for information about additional types of Personal Data that we may collect, including about online activity.</li>
+  
+</ul><p><strong>b. How we use and share Personal Data of Representatives</strong></p><p>We generally use Personal Data of Representatives to provide the Business Services to the associated Business Users, as well as for the purposes described <a class="
+    Link
+    
+  " href="https://stripe.com/privacy#2-more-ways-we-collect-use-and-share-personal-data" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">below</a>.</p><ul>
+  
+    <li><strong>Business Services.</strong> We use and share Personal Data of Representatives with Business Users to provide the Services you (or the Business User you are associated with) have requested.&nbsp;<ul>
+  
+    <li>In some cases our Business Service will require us to submit your Personal Data to a government entity (e.g. incorporating a business, or paying applicable sales tax).&nbsp; For our tax Business Services, we may use your Personal Data to file taxes on behalf of your associated Business User. For our Atlas business incorporation services, we may use your Personal Data to submit forms to the IRS on your behalf and to file documents with other governmental authorities (e.g. articles of incorporation in your state of incorporation).</li>
+  
+    <li>We share data with parties directly authorized by a Business User to receive Personal Data (e.g. financial partners servicing the financial product, or third party apps or services the Business User uses in conjunction with our Business Services). For example, providers of payment methods (e.g., Visa, WeChat Pay) will require merchant onboarding information for the Business Users that accept their payment methods, and Stripe will provide required onboarding information (including Personal Data of Representatives) to those financial partners. In some cases, these payment method providers will be located outside your home country for example WCP, AliPay, Block, Klarna Bank AB.&nbsp; <a class="
+    Link
+    
+  " href="https://stripe.com/legal/privacy-center#in-addition-to-its-sub-processors-what-other-third-parties-does-stripe-share-information-with" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">Learn More.</a>&nbsp;&nbsp;<ul>
+  
+    <li>The use of Personal Data by a Business User’s authorized third party is subject to the third party’s privacy policy.</li>
+  
+</ul></li>
+  
+    <li>If you are a Business User and have chosen a name that includes Personal Data (e.g. a sole proprietorship or family name in a company name), we will share and use that information as any company name in connection with the provision of our Services (e.g. including it on receipts and other descriptions identifying financial transactions).&nbsp;</li>
+  
+</ul></li>
+  
+    <li><strong>Advertising.</strong> Where allowed by applicable law, we use and share Representative Personal Data with others so that we may advertise and market our Services to you. Subject to applicable law (including any consent requirements), we may advertise to you through interest-based advertising and emails and seek to measure the effectiveness of our ads. See our <a class="
+    Link
+    
+  " href="https://stripe.com/cookies-policy/legal" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">Cookie Policy</a>. We do not sell or share Representative Personal Data to others for their advertising purposes.</li>
+  
+    <li><strong>More.</strong> Please see <a class="
+    Link
+    
+  " href="https://stripe.com/privacy#2-more-ways-we-collect-use-and-share-personal-data" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">below</a> for information about additional ways in which we may collect, use and share your Personal Data.</li>
+  
+</ul><h3 id="1-4-visitors"><strong>1.4 Visitors&nbsp;</strong></h3><p>We collect, use and share Personal Data of Visitors (who are not End Users, End Customers or Representatives).&nbsp; We provide more information about our collection, use and sharing of Personal Data in our <a class="
+    Link
+    
+  " href="https://stripe.com/privacy-center/legal" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">Privacy Center</a>, including the <a class="
+    Link
+    
+  " href="https://stripe.com/privacy-center/legal#visitors" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">legal bases</a> which we rely on for using (processing) your Personal Data.</p><p><strong>a. Visitor Personal Data that we collect</strong></p><p>When you visit our Sites, we will receive your Personal Data either from you providing it to us or through our use of cookies and similar technologies. See our <a class="
+    Link
+    
+  " href="https://stripe.com/cookies-policy/legal" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">Cookie Policy</a>.</p><ul>
+  
+    <li><strong>Forms.</strong> When you choose to fill in a form on the Site or on third party websites featuring our advertising (e.g. LinkedIn or Facebook), we will collect the information included in the form (e.g. your contact information and other information about your question related to our Services).&nbsp;We may also associate a location with your visit. <a class="
+    Link
+    
+  " href="https://stripe.com/legal/privacy-center#does-stripe-collect-precise-location-data" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">Learn More.</a></li>
+  
+    <li><strong>More.</strong> Please see <a class="
+    Link
+    
+  " href="https://stripe.com/privacy#2-more-ways-we-collect-use-and-share-personal-data" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">below</a> for information about additional types of Personal Data that we may collect, including about online activity.</li>
+  
+</ul><p><strong>b. How we use and share visitor Personal Data</strong></p><ul>
+  
+    <li><strong>Personalization.</strong> We use information about you that we gather from cookies and similar technologies to measure engagement with the content on the Sites, to improve relevancy and navigation, to personalize your experience (e.g. language and relevant geography) and to tailor content about Stripe and our Services to you.&nbsp; For example, because not all of our Services are available in all regions, so we may tailor our answers for your region.</li>
+  
+    <li><strong>Advertising.</strong> As allowed by law, we use and share Visitor Personal Data with others so that we may advertise and market our Services to you.&nbsp; Subject to applicable law (including any consent requirements), we may advertise our Services to you through interest-based advertising and emails, and seek to measure the effectiveness of our ads. See also our <a class="
+    Link
+    
+  " href="https://stripe.com/cookies-policy/legal" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">Cookie Policy</a>.&nbsp; We do not sell or share Visitor Personal Data to others for their advertising purposes.</li>
+  
+    <li><strong>Engagement.</strong>&nbsp; When visitors engage with our stripe.com site, we will use information we collect about and through your devices in order to provide the opportunity to engage in conversations or with chatbots to address your questions.</li>
+  
+    <li><strong>More.</strong> Please see <a class="
+    Link
+    
+  " href="https://stripe.com/privacy#2-more-ways-we-collect-use-and-share-personal-data" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">below</a> for information about additional ways in which we may collect, use and share your Personal Data.</li>
+  
+</ul>
+        </div>
+      
+    
+      
+        <div class="RichTextContainer">
+          <h2 id="2-more-ways-we-collect-use-and-share-personal-data"><strong>2. More ways we collect, use and share Personal Data</strong></h2><p>In addition to the ways we collect, use and share Personal Data that are described above, we also process your Personal Data as follows:&nbsp;</p><p><strong>a. Personal Data Collection</strong></p><ul>
+  
+    <li><strong>Online Activity.</strong> Depending on the Service you use and the Business Users’ implementation of our Business Services, we will collect information about:<ul>
+  
+    <li>Devices and browsers across our Sites and third-party websites, apps and other online services (“<strong>Third-Party Sites</strong>”),</li>
+  
+    <li>Usage data associated with those devices and browsers and how you’ve engaged with our Services, including IP address, plug-ins, language used, time spent on Sites and Third-Party Sites, pages visited, links clicked, payment methods used, and the pages that led or referred you to Sites and Third-Party Sites. For example, activity indicators, like mouse activity indicators, to help us detect fraud. <a class="
+    Link
+    
+  " href="https://stripe.com/docs/disputes/prevention/advanced-fraud-detection" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">Learn More</a>. Please also see our <a class="
+    Link
+    
+  " href="https://stripe.com/legal/cookies-policy" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">Cookie Policy</a>.</li>
+  
+</ul></li>
+  
+    <li><strong>Communication and Engagement Information.</strong> We will collect any information you choose to provide to us, for example, through support tickets, emails or social media. When you respond to Stripe emails or surveys, we collect your email address, name and any other information you choose to include in the body of your email or responses. If you contact us by phone, we will collect the phone number you use to call Stripe, as well as other information you may provide during the call. We will also collect your engagement data such as your registration for, attendance of, or viewing of Stripe events and other interaction with Stripe personnel.</li>
+  
+    <li><strong>Forums and Discussion Groups.</strong> Where our Sites allow you to post content, we will collect Personal Data that you provide in connection with the post.</li>
+  
+</ul><p><strong>b. Personal Data Usage</strong>. In addition to the Personal Data usage described above, we use Personal Data in the following ways:</p><ul>
+  
+    <li><strong>Improving and Developing our Services.</strong> We use analytics on our Sites to help us analyze your use of our Sites and Services and diagnose technical issues. To learn more about the cookies that may be served through our Sites and how you can control our use of cookies and third-party analytics, please see our <a class="
+    Link
+    
+  " href="https://stripe.com/legal/cookies-policy" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">Cookie Policy</a>. We also collect and process Personal Data through our different Services, whether you are an End User, End Customer, Representative or Visitor, to improve our Services, develop new Services and support our efforts to make our Services more relevant and more useful to you. <a class="
+    Link
+    
+  " href="https://stripe.com/legal/privacy-center#how-does-stripe-use-personal-data-to-improve-its-products-and-services" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">Learn More.</a></li>
+  
+    <li><strong>Communications.</strong> We will use the contact information we have about you to perform the Services, which may include sending codes via SMS to authenticate you. <a class="
+    Link
+    
+  " href="https://stripe.com/legal/privacy-center#how-does-stripe-remember-payment-method-details-for-link" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">Learn More</a>. If you are an End User, Representative or Visitor, we may communicate with you using the contact information we have about you (e.g. using email, phone, text message or videoconference) to provide information about our Services and our affiliates’ services, invite you to participate in our events or surveys, or otherwise communicate with you for our marketing purposes, provided that we do so in accordance with applicable law, including any consent or opt-out requirements. For example, when you submit your contact information to us or when we collect your business contact details through our participation at trade shows or other events, we may use the information to follow-up with you regarding an event, send you information that you have requested on our products and services and include you on our marketing information campaigns.</li>
+  
+    <li><strong>Social Media and Promotions.</strong> If you choose to submit Personal Data to us to participate in an offer, program or promotion, we will use the Personal Data you submit to administer the offer, program or promotion. We will also use that Personal Data and Personal Data you make available on social media to market to you unless we are not permitted to do so.</li>
+  
+    <li><strong>Fraud Prevention and Security.</strong> We collect and use Personal Data to help us to detect and manage the activity of fraudulent and other bad actors across our Services, to enable our fraud detection Business Services, and to otherwise seek to secure our Services and transactions against unauthorized access, use, modification or misappropriation of Personal Data, information and funds. In connection with fraud and security monitoring, prevention, detection, and compliance activities for Stripe and its Business Users, we receive information from service providers (including credit bureaus), third parties, and the Services we provide. We may collect information from you, and about you, from Business Users, financial parties and in some cases third parties. For example, to protect our Services, we may receive information from third parties about IP addresses that malicious actors have compromised. <a class="
+    Link
+    
+  " href="https://stripe.com/legal/privacy-center#from-where-does-stripe-collect-information-used-for-fraud-prevention-and-security-purposes" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">Learn More</a>. This Personal Data (e.g. name, address, phone number, country) helps us to confirm identities, run credit checks subject to applicable law and prevent fraud. We may also use technology to assess the fraud risk associated with an attempted transaction by an End Customer or End User with a Business User or financial partner.</li>
+  
+    <li><strong>Compliance with Legal Obligations.</strong> We use Personal Data to meet our contractual and legal obligations related to anti-money laundering, Know-Your-Customer ("KYC") laws, anti-terrorism, export control and prohibitions on doing business with restricted persons or in certain business areas and other legal obligations. <a class="
+    Link
+    
+  " href="https://stripe.com/privacy-center/legal#the-legal-basis-for-using-your-information" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">Learn More.</a>&nbsp; We strive to make our Services safe, secure and compliant, and the collection and use of Personal Data is critical to this effort. For example, we may monitor patterns of payment transactions and other online signals and use those insights to reduce the risk of fraud, money laundering and other activity that is harmful to Stripe, our End Users and their End Customers.</li>
+  
+    <li><strong>Minors.</strong> The Services are not directed to minors, including children under the age of 13, and we request that they not provide Personal Data through the Services. In some countries, we may impose higher age limits as required by applicable law.</li>
+  
+</ul><p>c. <strong>Personal Data Sharing</strong>. In addition to the ways described above, we share Personal Data in the following ways:</p><ul>
+  
+    <li><strong>Stripe Affiliates.</strong> We share Personal Data with other Stripe affiliated entities. When we share with these entities, it is for purposes identified in this Policy.</li>
+  
+    <li><strong>Service Providers or Processors.</strong> In order to provide Services to our Business Users and End Users and to communicate, market and advertise to Visitors, Representatives and End Users regarding our Services, we will rely on others to provide us services. Service providers provide a variety of critical services, such as hosting (storing and delivering), analytics to assess the speed, accuracy and/or security of our Services, identity verification, customer service, email and auditing. We authorize such service providers to use or disclose the Personal Data that we make available to perform services on our behalf and to comply with applicable legal requirements. We require such service providers to contractually commit to protect the security and confidentiality of Personal Data they process on our behalf. Our service providers are predominantly located in the European Union, the United States of America and India. <a class="
+    Link
+    
+  " href="https://stripe.com/service-providers/legal" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">Learn More</a>.</li>
+  
+    <li><strong>Financial Partners.</strong> “Financial Partners” are financial institutions that we partner with to offer the Services (including payment method acquirers, banks and payout providers). We share Personal Data with certain Financial Partners to provide the Services to the associated Business Users and to offer certain Services in partnership with our Financial Partners. For example, we share certain Personal Data of Representatives (e.g. loan repayment data and contact information) with institutional investors who purchase or provide credit secured by the Capital loans that we have made to the associated Business Users.</li>
+  
+    <li><strong>Others with Consent.</strong> In some cases we may not provide a service, but instead refer you to, or enable you to engage with, others to get services (e.g. professional services firms that we partner with to deliver Atlas). In these cases, we will disclose the identity of the third party and the information that will be shared with them and seek your consent to share the information.</li>
+  
+    <li><strong>Corporate Transactions.</strong> In the event that we enter into, or intend to enter into, a transaction that alters the structure of our business, such as a reorganization, merger, sale, joint venture, assignment, transfer, change of control, or other disposition of all or any portion of our business, assets or stock, we may share Personal Data with third parties in connection with such transaction. Any other entity which buys us or part of our business will have the right to continue to use your Personal Data, but subject to the terms of this Policy.</li>
+  
+</ul><p><strong>Compliance and Harm Prevention.</strong> We share Personal Data as we believe necessary: (i) to comply with applicable law, (ii) to comply with rules imposed by a payment method in connection with use of that payment method (e.g. network rules for Visa); (iii) to enforce our contractual rights; (iv) to secure or protect the Services, rights, privacy, safety and property of Stripe, you or others, including against other malicious or fraudulent activity and security incidents; and (v) to respond to valid legal process requests from courts, law enforcement agencies, regulatory agencies, and other public and government authorities, which may include authorities outside your country of residence.</p>
+        </div>
+      
+    
+      
+        <div class="RichTextContainer">
+          <h2 id="3-legal-bases-for-processing-data"><strong>3. Legal bases for processing data</strong></h2><p>For the purposes of the General Data Protection Regulation, we rely upon a number of legal bases to enable our processing of your Personal Data. For more information, see <a class="
+    Link
+    
+  " href="https://stripe.com/privacy-center/legal#stripe-legal-bases-tables" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">here</a>.
+</p><p><strong>a. Contractual and Pre-Contractual Business Relationships.</strong> We process Personal Data for the purpose of entering into business relationships with prospective Business Users and End Users and to perform the respective contractual obligations with them. Activities include:</p><ul>
+  
+    <li>Creation and management of Stripe accounts and Stripe account credentials, including the evaluation of applications to commence or expand the use of our Services;</li>
+  
+    <li>Creation and management of Stripe Checkout accounts;</li>
+  
+    <li>Accounting, auditing, and billing activities; and</li>
+  
+    <li>Processing of payments, including fraud detection, loss prevention, optimizing valid transactions, communications regarding such payments, and related customer service.</li>
+  
+</ul><p><strong>b. Legal Compliance.</strong> We process Personal Data to verify the identity of individuals and entities in order to comply with fraud monitoring, prevention and detection obligations, laws associated with the identification and reporting of illegal and illicit activity, such as "Anti-Money Laundering ("AML") and Know-Your-Customer ("KYC")" obligations, and financial reporting obligations. For example, we may be required to record and verify a User’s identity for the purpose of compliance with legislation intended to prevent money laundering and financial crimes. These obligations are imposed on us by the operation of law and may require us to report our compliance to third parties, and to submit to third party verification audits.
+</p><p><strong>c. Legitimate Interests.</strong> Where allowed under applicable law, we rely on our legitimate business interests to process Personal Data about you. The following list sets out the business purposes for which we have a legitimate interest in processing your data:</p><ul>
+  
+    <li>Detect, monitor and prevent fraud and unauthorized payment transactions;</li>
+  
+    <li>Mitigate financial loss, claims, liabilities or other harm to End Customers, End Users, Business Users and Stripe;</li>
+  
+    <li>Determine eligibility for and offer new Stripe products and services <a class="
+    Link
+    
+  " href="https://stripe.com/privacy-center/legal#stripe-capital" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">Learn More</a>;&nbsp;&nbsp;&nbsp;</li>
+  
+    <li>Respond to inquiries, send Service notices and provide customer support;</li>
+  
+    <li>Promote, analyze, modify and improve our Services, systems, and tools, and develop new products and services, including reliability of the Services;</li>
+  
+    <li>Manage, operate and improve the performance of our Sites and Services by understanding their effectiveness and optimizing our digital assets;</li>
+  
+    <li>Analyze and advertise our Services, and related improvements;</li>
+  
+    <li>Conduct aggregate analysis and develop business intelligence that enable us to operate, protect, make informed decisions, and report on the performance of, our business;</li>
+  
+    <li>Share Personal Data with third party service providers that provide services on our behalf and business partners which help us operate and improve our business <a class="
+    Link
+    
+  " href="https://stripe.com/service-providers/legal" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">Learn More</a>;</li>
+  
+    <li>Enable network and information security throughout Stripe and our Services; and</li>
+  
+    <li>Share Personal Data among our affiliates.</li>
+  
+</ul><p>
+<strong>d. Consent.</strong> We may rely on consent to collect and process Personal Data as it relates to how we communicate with you and for the provision of our Services such as Link, Financial Connections, Atlas and Identity. When we process data based on your consent, you have the right to withdraw your consent at any time without affecting the lawfulness of processing based on such consent before the consent is withdrawn. </p>
+        </div>
+      
+    
+      
+        <div class="RichTextContainer">
+          <h2 id="4-your-rights-and-choices"><strong>4. Your rights and choices</strong></h2><p>You may have choices regarding our collection, use and disclosure of your Personal Data:</p><p><strong>a. Opting out of receiving electronic communications from us</strong></p><p>If you no longer want to receive marketing-related emails from us, you may opt-out via the unsubscribe link included in such emails or as described <a class="
+    Link
+    
+  " href="https://stripe.com/legal/privacy-center#how-do-i-exercise-my-data-protection-rights" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">here</a>. We will try to comply with your request(s) as soon as reasonably practicable. Please note that if you opt-out of receiving marketing-related emails from us, (i) we retain the right to communicate to you regarding the services you receive (e.g. support and important legal notices) and (ii) our Business Users may still send you messages and/or direct us to send you messages on their behalf.&nbsp;</p><p><strong>b. Your data protection rights</strong></p><p>Depending on your location and subject to applicable law, you may have the following rights described <a class="
+    Link
+    
+  " href="https://stripe.com/legal/privacy-center#how-do-i-exercise-my-data-protection-rights" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">here</a> with regard to the Personal Data we control about you:</p><ul>
+  
+    <li>The right to request confirmation of whether Stripe processes Personal Data relating to you, and if so, to request a copy of that Personal Data;</li>
+  
+    <li>The right to request that Stripe rectify or update your Personal Data that is inaccurate, incomplete or outdated;</li>
+  
+    <li>The right to request that Stripe erase your Personal Data in certain circumstances provided by law. <a class="
+    Link
+    
+  " href="https://support.stripe.com/questions/i-would-like-to-delete-the-information-stripe-has-collected-from-me" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">Learn More</a>;</li>
+  
+    <li>The right to request that Stripe restrict the use of your Personal Data in certain circumstances, such as while Stripe considers another request that you have submitted (including a request that Stripe make an update to your Personal Data);</li>
+  
+    <li>The right to request that we export your Personal Data that we hold to another company, where technically feasible;</li>
+  
+    <li>Where the processing of your Personal Data is based on your previously given consent, you have the right to withdraw your consent at any time;&nbsp;</li>
+  
+    <li>Where we process your information based on our legitimate interests, you may also have the right to object to the processing of your Personal Data. Unless we have compelling legitimate grounds or where it is needed for legal reasons, we will cease processing your information when you object. &nbsp;<a class="
+    Link
+    
+  " href="https://stripe.com/legal/privacy-center#when-does-stripe-continue-to-process-data-after-it-has-received-a-deletion-request-or-objection-to-the-processing" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">Learn More.</a></li>
+  
+    <li>The right not to be discriminated against for exercising these rights; and/or</li>
+  
+    <li>The right to appeal any decision by Stripe relating to these rights.</li>
+  
+</ul><p>You may have additional rights regarding your Personal Data under applicable law. For example, see Jurisdiction-specific provisions section under California below.</p><p><strong>c. Process for exercising your data protection rights</strong></p><p>To exercise your data protection rights please also see the <a class="
+    Link
+    
+  " href="https://stripe.com/privacy-center/legal#your-rights-and-choices" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">Stripe Privacy Center</a> or contact us as described below.</p>
+        </div>
+      
+    
+      
+        <div class="RichTextContainer">
+          <h2 id="5-security-and-retention"><strong>5. Security and retention</strong></h2><p>We make reasonable efforts to provide a level of security appropriate to the risk associated with the processing of your Personal Data. We maintain organizational, technical and administrative measures designed to protect Personal Data covered by this Policy against unauthorized access, destruction, loss, alteration or misuse. Unfortunately, no data transmission or storage system can be guaranteed to be 100% secure.</p><p>To help us protect Personal Data, where you have an account with Stripe, we encourage you to use a strong password, protect that password from unauthorized use and not use the same log-in credentials (e.g. password) for your Stripe accounts as you do with other services or accounts. If you have reason to believe that your interaction with us is no longer secure (e.g. you feel that the security of your Stripe account has been compromised), please contact us immediately. <a class="
+    Link
+    
+  " href="https://stripe.com/docs/security/stripe" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">Learn More</a>.</p><p>We retain your Personal Data as long as we are providing the Services to you or our Business Users (as applicable) or for a period during which we reasonably anticipate providing the Services. Even after we stop providing Services directly to you or a Business User with which you are doing business, and even if you close your Stripe account or complete a transaction with a Business User, we may retain your Personal Data:&nbsp;</p><ul>
+  
+    <li>to comply with our legal and regulatory obligations.&nbsp;</li>
+  
+    <li>to enable fraud monitoring, detection and loss prevention activities.&nbsp;</li>
+  
+    <li>to comply with our tax, accounting, and financial reporting obligations</li>
+  
+    <li>where required by our contractual commitments to our financial partners (and where data retention is mandated by the payment methods you used).&nbsp;</li>
+  
+</ul><p>
+In cases where we keep Personal Data, we do so in accordance with any limitation periods and records retention obligations that are imposed by applicable law. <a class="
+    Link
+    
+  " href="https://stripe.com/legal/privacy-center#how-long-will-stripe-keep-my-data" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">Learn More</a>.</p>
+        </div>
+      
+    
+      
+        <div class="RichTextContainer">
+          <h2 id="6-international-data-transfers"><strong>6. International data transfers</strong></h2><p>We are a global business. We may transfer your Personal Data to countries other than your own country, including to the United States. These countries may have data protection rules that are different from your country. When transferring data across borders, we take measures to comply with applicable data protection laws related to such transfer. In certain situations, we may be required to disclose Personal Data in response to lawful requests from officials (such as law enforcement or security authorities). <a class="
+    Link
+    
+  " href="https://stripe.com/legal/privacy-center#how-is-stripe-dealing-with-international-data-transfers" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">Learn More</a>.</p><p>If you are located in the European Economic Area (“EEA”), the United Kingdom ("UK") or Switzerland, please see <a class="
+    Link
+    
+  " href="https://stripe.com/legal/privacy-center#how-do-the-sccs-and-uk-addendum-impact-my-organization" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">Stripe Privacy Center</a> for more information. Where applicable law requires a data transfer mechanism, we use one or more of the following:&nbsp;</p><ul>
+  
+    <li>Transfers to certain countries or recipients that are recognised as having an adequate level of protection for Personal Data under applicable law.&nbsp;</li>
+  
+    <li>EU Standard Contractual Clauses approved by the European Commission and the UK International Data Transfer Addendum issued by the Information Commissioner’s Office. You can obtain a copy of the relevant Standard Contractual Clauses. <a class="
+    Link
+    
+  " href="https://stripe.com/legal/privacy-center#how-to-get-a-copy-of-the-sccs-or-uk-addendum" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">Learn More</a>.&nbsp;</li>
+  
+    <li>or other legal methods available to us under applicable law.&nbsp;</li>
+  
+</ul><p>While Stripe, Inc. remains self-certified under the E.U.-U.S. Privacy Shield and the Swiss-U.S. Privacy Shield, it is not currently relying on these frameworks for the transfer of Personal Data to the United States.</p>
+        </div>
+      
+    
+      
+        <div class="RichTextContainer">
+          <h2 id="7-updates-and-notifications"><strong>7. Updates and notifications</strong></h2><p>We may change this Policy from time to time to reflect new services, changes in our privacy practices or relevant laws. The “Last updated” legend at the top of this Policy indicates when this Policy was last revised. Any changes are effective the latter of when we post the revised Policy on the Services or otherwise provide notice of the update as required by law.</p><p>We may provide you with disclosures and alerts regarding the Policy or Personal Data collected by posting them on our website and, if you are an End User or Representative, by contacting you through your Stripe Dashboard, email address and/or the physical address listed in your Stripe account.</p>
+        </div>
+      
+    
+      
+        <div class="RichTextContainer">
+          <h2 id="8-jurisdiction-specific-provisions"><strong>8. Jurisdiction-specific provisions</strong></h2><ul>
+  
+    <li><strong>Australia.</strong> If you are an Australian resident, and you are dissatisfied with our handling of any complaint you raise under this Policy, you may wish to contact the Office of the Australian Information Commissioner.</li>
+  
+    <li><strong>Brazil.</strong>To exercise your rights, you may <a class="
+    Link
+    
+  " href="mailto:dpo@stripe.com" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label=""><strong>contact our DPO</strong></a>. Brazilian residents, to whom the Lei Geral de Proteção de Dados&nbsp; Pessoais (“LGPD”) applies, have rights set forth in Article 18 of the LGPD.</li>
+  
+    <li><strong>Canada.</strong> As used in this Policy, “applicable law” includes the Federal Personal Information Protection and Electronic Documents Act (PIPEDA) and “Personal Data” includes “personal information” as defined under PIPEDA.</li>
+  
+    <li><strong>EEA and UK.</strong> To exercise your rights, you may <a class="
+    Link
+    
+  " href="mailto:dpo@stripe.com" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label=""><strong>contact our DPO</strong></a>. If you are a resident of the EEA or if we have identified Stripe Payments Europe Limited as your data controller, and you believe our&nbsp; processing of your information is not in line with the General Data Protection Regulation (GDPR), you may direct your questions or complaints to the Irish Data Protection Commission. If you are a resident of the UK, you may direct your questions or concerns to the UK Information Commissioner’s Office. Where Personal Data is used for regulated financial activities in Europe, Stripe Payments Europe Limited and Stripe local regulated entities (defined as those who are licensed, authorized or registered by a Local Regulatory Authority) are considered joint controllers. <a class="
+    Link
+    
+  " href="https://stripe.com/privacy-center/legal#which-stripe-entities-are-involved" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">Learn More</a>.</li>
+  
+    <li><strong>India.</strong> If you have any questions or complaints regarding the processing of your Personal Data in India, please contact our Nodal and Grievance Officer <a class="
+    Link
+    
+  " href="mailto:complaints-in@stripe.com" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">here</a>. <a class="
+    Link
+    
+  " href="https://stripe.com/legal/privacy-center#where-can-i-lodge-my-complaint-on-data-handling-in-india" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">Learn More</a>.</li>
+  
+    <li><strong>Indonesia.</strong> As used in this Policy, “applicable law” includes Law No. 11 of 2008 as amended by Law No. 19 of 2016 on Electronic Information and Transactions, Government Regulation No. 71 of 2019 on the Implementation of Electronic Systems and Transactions, and Minister of Communication and Informatics Regulation No. 20 of 2016 on Personal Data Protection in Electronic Systems and “Personal Data” includes “personal data” as defined under such laws.&nbsp;</li>
+  
+    <li><strong>Japan.</strong>When we transfer Personal Data of data subjects in Japan to jurisdictions that are not recognized as ‘adequate’ by the Personal Information Protection Commission, we enter into written agreements with any third parties located outside of Japan. These written agreements provide rights and obligations equivalent to those provided under the Japanese Act on the Protection of Personal Information. For more information on how we ensure that third parties protect your data and where your data is located, please see above or contact us as described below. For a description of foreign systems and frameworks that may affect the implementation of equivalent measures by the third party, see <a class="
+    Link
+    
+  " href="https://www.ppc.go.jp/personalinfo/legal/kaiseihogohou/#gaikoku" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">here</a>.</li>
+  
+    <li><strong>Malaysia.</strong> If you have any questions or complaints about this Policy, please <a class="
+    Link
+    
+  " href="mailto:dpo@stripe.com" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label=""><strong>contact our DPO</strong></a>.</li>
+  
+    <li><strong>Switzerland.</strong> As used in this Policy, “applicable law” includes the Swiss Federal Act on Data Protection (FADP), as revised. To exercise your rights under the FADP, please <a class="
+    Link
+    
+  " href="mailto:dpo@stripe.com" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label=""><strong>contact our DPO</strong></a>.</li>
+  
+    <li><strong>Thailand.</strong> If we process your Personal Data due to a legal obligation or contractual right and you do not provide us with personal Information, we may not be able to lawfully provide you services.</li>
+  
+    <li><strong>United States - California.</strong> If you are a consumer located in California, we process your personal information in accordance with California law (e.g. the "CCPA"). For specific details, please see <a class="
+    Link
+    
+  " href="https://stripe.com/legal/privacy-center#does-stripe-sell-my-personal-information-under-the-ccpa" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">here</a>. Stripe uses cookies, including advertising cookies, as described in our <a class="
+    Link
+    
+  " href="https://stripe.com/legal/cookies-policy" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">Cookie Policy</a>.<ul>
+  
+    <li>Your Rights and Choices. As a California consumer and subject to certain limitations under the CCPA, you have choices regarding our use and disclosure of your personal information (<a class="
+    Link
+    
+  " href="https://stripe.com/privacy-center/legal#california-privacy-rights-metrics" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">learn more</a> about data subject rights metrics). In addition to the above rights (see <a class="
+    Link
+    
+  " href="https://stripe.com/privacy#4-your-rights-and-choices" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">here</a>), please note these other California-specific rights:<ul>
+  
+    <li>Exercising the right to know: You have a right to request additional information about the categories of&nbsp; personal information collected, sold, disclosed, or shared; purposes for which this personal information was collected, sold, or shared; categories of sources of personal information; and categories of third parties with whom we disclosed or shared this personal information.</li>
+  
+    <li>Exercising the right to opt-out from a sale: We do not sell “Personal Information” as defined by the CCPA and have not done so in the past 12 months. <a class="
+    Link
+    
+  " href="https://stripe.com/legal/privacy-center#does-stripe-sell-my-personal-information-under-the-ccpa" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">Learn more</a>.</li>
+  
+    <li>Exercising the right to limit the use or sharing of Sensitive Personal Information: we do not sell or share Sensitive Personal Information as defined by the CCPA and have not done so in the past 12 months. Learn more about our collection and use of Sensitive Personal Information <a class="
+    Link
+    
+  " href="https://stripe.com/legal/privacy-center#what-sensitive-personal-information-under-the-california-consumer-privacy-act-ccpa-does-stripe-collect-and-for-what-purposes-does-stripe-use-that-data" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">here</a>.</li>
+  
+    <li>Right to opt-out of sharing of cross-context behavioral advertising. Learn more <a class="
+    Link
+    
+  " href="https://stripe.com/legal/privacy-center#what-data-may-be-shared-or-made-available-to-enable-me-to-see-stripe-ads-on-other-sites" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">here</a> and <a class="
+    Link
+    
+  " href="https://stripe.com/cookie-settings" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">here</a>.</li>
+  
+</ul></li>
+  
+    <li>To submit a request to exercise any of the rights described above, please contact us using the methods described in the Contact Us section below. We will verify your request by asking you to send it from the email address associated with your account or requiring you to provide information necessary to verify your identity, including name, address, transaction history, photo identification, and other information associated with your account.</li>
+  
+    <li>You may designate, in writing or through a power of attorney, an authorized agent to make requests on your behalf to exercise your rights under the CCPA. Your agent may submit a request on your behalf by contacting us using the methods described in the Contact Us section below. We may still require you to directly verify your identity and confirm that you provided the authorized agent permission to submit the request.</li>
+  
+    <li>Do Not Track and signals. <a class="
+    Link
+    
+  " href="https://stripe.com/legal/privacy-center#does-stripe-honor-the-global-privacy-control-gpc-opt-out-preference-signal" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">Learn more</a> about how we honor “do not track” and other signals.</li>
+  
+</ul></li>
+  
+</ul>
+        </div>
+      
+    
+      
+        <div class="RichTextContainer">
+          <h2 id="9-contact-us"><strong>9. Contact us</strong></h2><p>If you have any questions or complaints about this Policy, please <a class="
+    Link
+    
+  " href="https://stripe.com/privacy-center/legal#contact-us" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="">contact us</a>. If you are an End Customer (i.e. an individual doing business or transacting with a Business User), please refer to the privacy policy or notice of the Business User for information regarding the Business User’s privacy practices, choices and controls, or contact the Business User directly.</p>
+        </div>
+</div>
+</main>
+</div>
+</div>
+</div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <footer class="
+    Section
+    SiteFooterSection
+    theme--Light
+    flavor--Chroma
+    accent--Slate
+    
+    Section--paddingNormal
+    
+    
+    Section--hasGuides
+    Section--hasStickyNav
+    Section--hasBorderTop
+    
+  ">
+  <div class="Section__masked">
+    <div class="Section__backgroundMask">
+      <div class="
+        Section__background
+        
+      ">
+        
+        <div class="
+    Guides
+    
+  " aria-hidden="true">
+  <div class="Guides__container">
+    <div class="Guides__guide"></div>
+    <div class="Guides__guide"></div>
+    <div class="Guides__guide"></div>
+    <div class="Guides__guide"></div>
+    <div class="Guides__guide"></div>
+  </div>
+</div>
+      </div>
+      
+    </div>
+    <div class="Section__container">
+      <div class="Section__layoutContainer">
+        <div class="Section__layout">
+          
+            <nav class="SiteFooterSection__layout">
+      <div class="SiteFooterSection__column--locale SiteFooterSection__column">
+        <div class="SiteFooterSection__localeContainer">
+          <div class="SiteFooterSection__logo">
+            <a class="SiteFooterSection__logoLink" href="/" data-js-controller="AnalyticsButton" data-analytics-category="Navigation" data-analytics-action="Clicked" data-analytics-label="Stripe Logo" aria-label="Go to the Stripe homepage" data-testid="footer-stripe-logo">
+              <svg viewBox="0 0 60 25" xmlns="http://www.w3.org/2000/svg" width="60" height="25" class="UserLogo variant-- "><title>Stripe logo</title><path fill="var(--userLogoColor, #0A2540)" d="M59.64 14.28h-8.06c.19 1.93 1.6 2.55 3.2 2.55 1.64 0 2.96-.37 4.05-.95v3.32a8.33 8.33 0 0 1-4.56 1.1c-4.01 0-6.83-2.5-6.83-7.48 0-4.19 2.39-7.52 6.3-7.52 3.92 0 5.96 3.28 5.96 7.5 0 .4-.04 1.26-.06 1.48zm-5.92-5.62c-1.03 0-2.17.73-2.17 2.58h4.25c0-1.85-1.07-2.58-2.08-2.58zM40.95 20.3c-1.44 0-2.32-.6-2.9-1.04l-.02 4.63-4.12.87V5.57h3.76l.08 1.02a4.7 4.7 0 0 1 3.23-1.29c2.9 0 5.62 2.6 5.62 7.4 0 5.23-2.7 7.6-5.65 7.6zM40 8.95c-.95 0-1.54.34-1.97.81l.02 6.12c.4.44.98.78 1.95.78 1.52 0 2.54-1.65 2.54-3.87 0-2.15-1.04-3.84-2.54-3.84zM28.24 5.57h4.13v14.44h-4.13V5.57zm0-4.7L32.37 0v3.36l-4.13.88V.88zm-4.32 9.35v9.79H19.8V5.57h3.7l.12 1.22c1-1.77 3.07-1.41 3.62-1.22v3.79c-.52-.17-2.29-.43-3.32.86zm-8.55 4.72c0 2.43 2.6 1.68 3.12 1.46v3.36c-.55.3-1.54.54-2.89.54a4.15 4.15 0 0 1-4.27-4.24l.01-13.17 4.02-.86v3.54h3.14V9.1h-3.13v5.85zm-4.91.7c0 2.97-2.31 4.66-5.73 4.66a11.2 11.2 0 0 1-4.46-.93v-3.93c1.38.75 3.1 1.31 4.46 1.31.92 0 1.53-.24 1.53-1C6.26 13.77 0 14.51 0 9.95 0 7.04 2.28 5.3 5.62 5.3c1.36 0 2.72.2 4.09.75v3.88a9.23 9.23 0 0 0-4.1-1.06c-.86 0-1.44.25-1.44.9 0 1.85 6.29.97 6.29 5.88z" fill-rule="evenodd"></path></svg>
+            </a>
+          </div>
+
+          
+            <div class="SiteFooterSection__localeControls">
+              <div class="LocaleControl LocaleControl--country" data-js-controller="LocaleControl">
+  <button class="LocaleControl__trigger" data-js-target="LocaleControl.trigger" aria-label="United States. Choose your country" data-testid="footer-locale-country-button">
+    <svg class="LocaleControl__triggerIcon" width="16" height="16" viewBox="0 0 16 16">
+      
+          <path d="M3.54 8.04h4.42v4.43c0 .57.76.75 1.01.24l4.96-9.93a.54.54 0 0 0-.72-.72L3.3 7.03c-.5.25-.33 1.01.24 1.01" fill="#0A2540" fill-rule="evenodd"></path>
+
+        
+    </svg>
+
+    <span data-js-target="LocaleControl.triggerLabel">United States</span>
+  </button>
+
+  <div class="LocaleControl__popup" data-js-target="LocaleControl.popup" aria-hidden="true"><section class="CountryPicker">
+      <div class="CountryPicker__body">
+        <a class="
+    CtaButton
+    variant--Link
+    CtaButton--arrow
+    CountryPicker__cta
+  " href="https://dashboard.stripe.com/register" data-js-controller="AnalyticsButton" data-analytics-category="Buttons" data-analytics-action="Clicked" data-analytics-label="Sign up" data-testid="footer-locale-country-sign-up-cta-button" tabindex="-1">Sign up instantly&nbsp;<svg class="
+    HoverArrow
+    
+    
+  " width="10" height="10" viewBox="0 0 10 10" aria-hidden="true">
+  <g fill-rule="evenodd">
+    
+      <path class="HoverArrow__linePath" d="M0 5h7"></path>
+      <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4"></path>
+    
+  </g>
+</svg></a>
+
+        <ul class="CountryPicker__list">
+          
+            <li class="CountryPicker__countryListItem">
+  
+    <img class="
+    Flag
+    Flag--countryAU
+    CountryPicker__countryFlagIcon
+  " src="https://images.ctfassets.net/fzn2n1nzq965/5JNjy04LAsNrA6xBh7Ao6z/0627f061f30ba1e46b9f2f8e2a0e48c1/flagIcons.svg" alt="AU" loading="lazy">
+  
+
+  <a class="
+    Link
+    
+  " href="https://stripe.com/en-au/privacy" data-js-controller="AnalyticsButton" data-analytics-category="Countries" data-analytics-action="Clicked" data-analytics-label="Australia" data-js-target-list="LocaleControl.items" data-js-metadata="country:AU" data-testid="footer-locale-country-AU-link" tabindex="-1">Australia</a>
+</li>
+          
+            <li class="CountryPicker__countryListItem">
+  
+    <img class="
+    Flag
+    Flag--countryAT
+    CountryPicker__countryFlagIcon
+  " src="https://images.ctfassets.net/fzn2n1nzq965/5JNjy04LAsNrA6xBh7Ao6z/0627f061f30ba1e46b9f2f8e2a0e48c1/flagIcons.svg" alt="AT" loading="lazy">
+  
+
+  <a class="
+    Link
+    
+  " href="https://stripe.com/en-at/privacy" data-js-controller="AnalyticsButton" data-analytics-category="Countries" data-analytics-action="Clicked" data-analytics-label="Austria" data-js-target-list="LocaleControl.items" data-js-metadata="country:AT" data-testid="footer-locale-country-AT-link" tabindex="-1">Austria</a>
+</li>
+          
+            <li class="CountryPicker__countryListItem">
+  
+    <img class="
+    Flag
+    Flag--countryBE
+    CountryPicker__countryFlagIcon
+  " src="https://images.ctfassets.net/fzn2n1nzq965/5JNjy04LAsNrA6xBh7Ao6z/0627f061f30ba1e46b9f2f8e2a0e48c1/flagIcons.svg" alt="BE" loading="lazy">
+  
+
+  <a class="
+    Link
+    
+  " href="https://stripe.com/en-be/privacy" data-js-controller="AnalyticsButton" data-analytics-category="Countries" data-analytics-action="Clicked" data-analytics-label="Belgium" data-js-target-list="LocaleControl.items" data-js-metadata="country:BE" data-testid="footer-locale-country-BE-link" tabindex="-1">Belgium</a>
+</li>
+          
+            <li class="CountryPicker__countryListItem">
+  
+    <img class="
+    Flag
+    Flag--countryBR
+    CountryPicker__countryFlagIcon
+  " src="https://images.ctfassets.net/fzn2n1nzq965/5JNjy04LAsNrA6xBh7Ao6z/0627f061f30ba1e46b9f2f8e2a0e48c1/flagIcons.svg" alt="BR" loading="lazy">
+  
+
+  <a class="
+    Link
+    
+  " href="https://stripe.com/en-br/privacy" data-js-controller="AnalyticsButton" data-analytics-category="Countries" data-analytics-action="Clicked" data-analytics-label="Brazil" data-js-target-list="LocaleControl.items" data-js-metadata="country:BR" data-testid="footer-locale-country-BR-link" tabindex="-1">Brazil</a>
+</li>
+          
+            <li class="CountryPicker__countryListItem">
+  
+    <img class="
+    Flag
+    Flag--countryBG
+    CountryPicker__countryFlagIcon
+  " src="https://images.ctfassets.net/fzn2n1nzq965/5JNjy04LAsNrA6xBh7Ao6z/0627f061f30ba1e46b9f2f8e2a0e48c1/flagIcons.svg" alt="BG" loading="lazy">
+  
+
+  <a class="
+    Link
+    
+  " href="https://stripe.com/en-bg/privacy" data-js-controller="AnalyticsButton" data-analytics-category="Countries" data-analytics-action="Clicked" data-analytics-label="Bulgaria" data-js-target-list="LocaleControl.items" data-js-metadata="country:BG" data-testid="footer-locale-country-BG-link" tabindex="-1">Bulgaria</a>
+</li>
+          
+            <li class="CountryPicker__countryListItem">
+  
+    <img class="
+    Flag
+    Flag--countryCA
+    CountryPicker__countryFlagIcon
+  " src="https://images.ctfassets.net/fzn2n1nzq965/5JNjy04LAsNrA6xBh7Ao6z/0627f061f30ba1e46b9f2f8e2a0e48c1/flagIcons.svg" alt="CA" loading="lazy">
+  
+
+  <a class="
+    Link
+    
+  " href="https://stripe.com/en-ca/privacy" data-js-controller="AnalyticsButton" data-analytics-category="Countries" data-analytics-action="Clicked" data-analytics-label="Canada" data-js-target-list="LocaleControl.items" data-js-metadata="country:CA" data-testid="footer-locale-country-CA-link" tabindex="-1">Canada</a>
+</li>
+          
+            <li class="CountryPicker__countryListItem">
+  
+    <img class="
+    Flag
+    Flag--countryHR
+    CountryPicker__countryFlagIcon
+  " src="https://images.ctfassets.net/fzn2n1nzq965/5JNjy04LAsNrA6xBh7Ao6z/0627f061f30ba1e46b9f2f8e2a0e48c1/flagIcons.svg" alt="HR" loading="lazy">
+  
+
+  <a class="
+    Link
+    
+  " href="https://stripe.com/en-hr/privacy" data-js-controller="AnalyticsButton" data-analytics-category="Countries" data-analytics-action="Clicked" data-analytics-label="Croatia" data-js-target-list="LocaleControl.items" data-js-metadata="country:HR" data-testid="footer-locale-country-HR-link" tabindex="-1">Croatia</a>
+</li>
+          
+            <li class="CountryPicker__countryListItem">
+  
+    <img class="
+    Flag
+    Flag--countryCY
+    CountryPicker__countryFlagIcon
+  " src="https://images.ctfassets.net/fzn2n1nzq965/5JNjy04LAsNrA6xBh7Ao6z/0627f061f30ba1e46b9f2f8e2a0e48c1/flagIcons.svg" alt="CY" loading="lazy">
+  
+
+  <a class="
+    Link
+    
+  " href="https://stripe.com/en-cy/privacy" data-js-controller="AnalyticsButton" data-analytics-category="Countries" data-analytics-action="Clicked" data-analytics-label="Cyprus" data-js-target-list="LocaleControl.items" data-js-metadata="country:CY" data-testid="footer-locale-country-CY-link" tabindex="-1">Cyprus</a>
+</li>
+          
+            <li class="CountryPicker__countryListItem">
+  
+    <img class="
+    Flag
+    Flag--countryCZ
+    CountryPicker__countryFlagIcon
+  " src="https://images.ctfassets.net/fzn2n1nzq965/5JNjy04LAsNrA6xBh7Ao6z/0627f061f30ba1e46b9f2f8e2a0e48c1/flagIcons.svg" alt="CZ" loading="lazy">
+  
+
+  <a class="
+    Link
+    
+  " href="https://stripe.com/en-cz/privacy" data-js-controller="AnalyticsButton" data-analytics-category="Countries" data-analytics-action="Clicked" data-analytics-label="Czech Republic" data-js-target-list="LocaleControl.items" data-js-metadata="country:CZ" data-testid="footer-locale-country-CZ-link" tabindex="-1">Czech Republic</a>
+</li>
+          
+            <li class="CountryPicker__countryListItem">
+  
+    <img class="
+    Flag
+    Flag--countryDK
+    CountryPicker__countryFlagIcon
+  " src="https://images.ctfassets.net/fzn2n1nzq965/5JNjy04LAsNrA6xBh7Ao6z/0627f061f30ba1e46b9f2f8e2a0e48c1/flagIcons.svg" alt="DK" loading="lazy">
+  
+
+  <a class="
+    Link
+    
+  " href="https://stripe.com/en-dk/privacy" data-js-controller="AnalyticsButton" data-analytics-category="Countries" data-analytics-action="Clicked" data-analytics-label="Denmark" data-js-target-list="LocaleControl.items" data-js-metadata="country:DK" data-testid="footer-locale-country-DK-link" tabindex="-1">Denmark</a>
+</li>
+          
+            <li class="CountryPicker__countryListItem">
+  
+    <img class="
+    Flag
+    Flag--countryEE
+    CountryPicker__countryFlagIcon
+  " src="https://images.ctfassets.net/fzn2n1nzq965/5JNjy04LAsNrA6xBh7Ao6z/0627f061f30ba1e46b9f2f8e2a0e48c1/flagIcons.svg" alt="EE" loading="lazy">
+  
+
+  <a class="
+    Link
+    
+  " href="https://stripe.com/en-ee/privacy" data-js-controller="AnalyticsButton" data-analytics-category="Countries" data-analytics-action="Clicked" data-analytics-label="Estonia" data-js-target-list="LocaleControl.items" data-js-metadata="country:EE" data-testid="footer-locale-country-EE-link" tabindex="-1">Estonia</a>
+</li>
+          
+            <li class="CountryPicker__countryListItem">
+  
+    <img class="
+    Flag
+    Flag--countryFI
+    CountryPicker__countryFlagIcon
+  " src="https://images.ctfassets.net/fzn2n1nzq965/5JNjy04LAsNrA6xBh7Ao6z/0627f061f30ba1e46b9f2f8e2a0e48c1/flagIcons.svg" alt="FI" loading="lazy">
+  
+
+  <a class="
+    Link
+    
+  " href="https://stripe.com/en-fi/privacy" data-js-controller="AnalyticsButton" data-analytics-category="Countries" data-analytics-action="Clicked" data-analytics-label="Finland" data-js-target-list="LocaleControl.items" data-js-metadata="country:FI" data-testid="footer-locale-country-FI-link" tabindex="-1">Finland</a>
+</li>
+          
+            <li class="CountryPicker__countryListItem">
+  
+    <img class="
+    Flag
+    Flag--countryFR
+    CountryPicker__countryFlagIcon
+  " src="https://images.ctfassets.net/fzn2n1nzq965/5JNjy04LAsNrA6xBh7Ao6z/0627f061f30ba1e46b9f2f8e2a0e48c1/flagIcons.svg" alt="FR" loading="lazy">
+  
+
+  <a class="
+    Link
+    
+  " href="https://stripe.com/en-fr/privacy" data-js-controller="AnalyticsButton" data-analytics-category="Countries" data-analytics-action="Clicked" data-analytics-label="France" data-js-target-list="LocaleControl.items" data-js-metadata="country:FR" data-testid="footer-locale-country-FR-link" tabindex="-1">France</a>
+</li>
+          
+            <li class="CountryPicker__countryListItem">
+  
+    <img class="
+    Flag
+    Flag--countryDE
+    CountryPicker__countryFlagIcon
+  " src="https://images.ctfassets.net/fzn2n1nzq965/5JNjy04LAsNrA6xBh7Ao6z/0627f061f30ba1e46b9f2f8e2a0e48c1/flagIcons.svg" alt="DE" loading="lazy">
+  
+
+  <a class="
+    Link
+    
+  " href="https://stripe.com/en-de/privacy" data-js-controller="AnalyticsButton" data-analytics-category="Countries" data-analytics-action="Clicked" data-analytics-label="Germany" data-js-target-list="LocaleControl.items" data-js-metadata="country:DE" data-testid="footer-locale-country-DE-link" tabindex="-1">Germany</a>
+</li>
+          
+            <li class="CountryPicker__countryListItem">
+  
+    <img class="
+    Flag
+    Flag--countryGI
+    CountryPicker__countryFlagIcon
+  " src="https://images.ctfassets.net/fzn2n1nzq965/5JNjy04LAsNrA6xBh7Ao6z/0627f061f30ba1e46b9f2f8e2a0e48c1/flagIcons.svg" alt="GI" loading="lazy">
+  
+
+  <a class="
+    Link
+    
+  " href="https://stripe.com/en-gi/privacy" data-js-controller="AnalyticsButton" data-analytics-category="Countries" data-analytics-action="Clicked" data-analytics-label="Gibraltar" data-js-target-list="LocaleControl.items" data-js-metadata="country:GI" data-testid="footer-locale-country-GI-link" tabindex="-1">Gibraltar</a>
+</li>
+          
+            <li class="CountryPicker__countryListItem">
+  
+    <img class="
+    Flag
+    Flag--countryGR
+    CountryPicker__countryFlagIcon
+  " src="https://images.ctfassets.net/fzn2n1nzq965/5JNjy04LAsNrA6xBh7Ao6z/0627f061f30ba1e46b9f2f8e2a0e48c1/flagIcons.svg" alt="GR" loading="lazy">
+  
+
+  <a class="
+    Link
+    
+  " href="https://stripe.com/en-gr/privacy" data-js-controller="AnalyticsButton" data-analytics-category="Countries" data-analytics-action="Clicked" data-analytics-label="Greece" data-js-target-list="LocaleControl.items" data-js-metadata="country:GR" data-testid="footer-locale-country-GR-link" tabindex="-1">Greece</a>
+</li>
+          
+            <li class="CountryPicker__countryListItem">
+  
+    <img class="
+    Flag
+    Flag--countryHK
+    CountryPicker__countryFlagIcon
+  " src="https://images.ctfassets.net/fzn2n1nzq965/5JNjy04LAsNrA6xBh7Ao6z/0627f061f30ba1e46b9f2f8e2a0e48c1/flagIcons.svg" alt="HK" loading="lazy">
+  
+
+  <a class="
+    Link
+    
+  " href="https://stripe.com/en-hk/privacy" data-js-controller="AnalyticsButton" data-analytics-category="Countries" data-analytics-action="Clicked" data-analytics-label="Hong Kong" data-js-target-list="LocaleControl.items" data-js-metadata="country:HK" data-testid="footer-locale-country-HK-link" tabindex="-1">Hong Kong</a>
+</li>
+          
+            <li class="CountryPicker__countryListItem">
+  
+    <img class="
+    Flag
+    Flag--countryHU
+    CountryPicker__countryFlagIcon
+  " src="https://images.ctfassets.net/fzn2n1nzq965/5JNjy04LAsNrA6xBh7Ao6z/0627f061f30ba1e46b9f2f8e2a0e48c1/flagIcons.svg" alt="HU" loading="lazy">
+  
+
+  <a class="
+    Link
+    
+  " href="https://stripe.com/en-hu/privacy" data-js-controller="AnalyticsButton" data-analytics-category="Countries" data-analytics-action="Clicked" data-analytics-label="Hungary" data-js-target-list="LocaleControl.items" data-js-metadata="country:HU" data-testid="footer-locale-country-HU-link" tabindex="-1">Hungary</a>
+</li>
+          
+            <li class="CountryPicker__countryListItem">
+  
+    <img class="
+    Flag
+    Flag--countryIN
+    CountryPicker__countryFlagIcon
+  " src="https://images.ctfassets.net/fzn2n1nzq965/5JNjy04LAsNrA6xBh7Ao6z/0627f061f30ba1e46b9f2f8e2a0e48c1/flagIcons.svg" alt="IN" loading="lazy">
+  
+
+  <a class="
+    Link
+    
+  " href="https://stripe.com/en-in/privacy" data-js-controller="AnalyticsButton" data-analytics-category="Countries" data-analytics-action="Clicked" data-analytics-label="India" data-js-target-list="LocaleControl.items" data-js-metadata="country:IN" data-testid="footer-locale-country-IN-link" tabindex="-1">India</a>
+</li>
+          
+            <li class="CountryPicker__countryListItem">
+  
+    <img class="
+    Flag
+    Flag--countryIE
+    CountryPicker__countryFlagIcon
+  " src="https://images.ctfassets.net/fzn2n1nzq965/5JNjy04LAsNrA6xBh7Ao6z/0627f061f30ba1e46b9f2f8e2a0e48c1/flagIcons.svg" alt="IE" loading="lazy">
+  
+
+  <a class="
+    Link
+    
+  " href="https://stripe.com/en-ie/privacy" data-js-controller="AnalyticsButton" data-analytics-category="Countries" data-analytics-action="Clicked" data-analytics-label="Ireland" data-js-target-list="LocaleControl.items" data-js-metadata="country:IE" data-testid="footer-locale-country-IE-link" tabindex="-1">Ireland</a>
+</li>
+          
+            <li class="CountryPicker__countryListItem">
+  
+    <img class="
+    Flag
+    Flag--countryIT
+    CountryPicker__countryFlagIcon
+  " src="https://images.ctfassets.net/fzn2n1nzq965/5JNjy04LAsNrA6xBh7Ao6z/0627f061f30ba1e46b9f2f8e2a0e48c1/flagIcons.svg" alt="IT" loading="lazy">
+  
+
+  <a class="
+    Link
+    
+  " href="https://stripe.com/en-it/privacy" data-js-controller="AnalyticsButton" data-analytics-category="Countries" data-analytics-action="Clicked" data-analytics-label="Italy" data-js-target-list="LocaleControl.items" data-js-metadata="country:IT" data-testid="footer-locale-country-IT-link" tabindex="-1">Italy</a>
+</li>
+          
+            <li class="CountryPicker__countryListItem">
+  
+    <img class="
+    Flag
+    Flag--countryJP
+    CountryPicker__countryFlagIcon
+  " src="https://images.ctfassets.net/fzn2n1nzq965/5JNjy04LAsNrA6xBh7Ao6z/0627f061f30ba1e46b9f2f8e2a0e48c1/flagIcons.svg" alt="JP" loading="lazy">
+  
+
+  <a class="
+    Link
+    
+  " href="https://stripe.com/en-jp/privacy" data-js-controller="AnalyticsButton" data-analytics-category="Countries" data-analytics-action="Clicked" data-analytics-label="Japan" data-js-target-list="LocaleControl.items" data-js-metadata="country:JP" data-testid="footer-locale-country-JP-link" tabindex="-1">Japan</a>
+</li>
+          
+            <li class="CountryPicker__countryListItem">
+  
+    <img class="
+    Flag
+    Flag--countryLV
+    CountryPicker__countryFlagIcon
+  " src="https://images.ctfassets.net/fzn2n1nzq965/5JNjy04LAsNrA6xBh7Ao6z/0627f061f30ba1e46b9f2f8e2a0e48c1/flagIcons.svg" alt="LV" loading="lazy">
+  
+
+  <a class="
+    Link
+    
+  " href="https://stripe.com/en-lv/privacy" data-js-controller="AnalyticsButton" data-analytics-category="Countries" data-analytics-action="Clicked" data-analytics-label="Latvia" data-js-target-list="LocaleControl.items" data-js-metadata="country:LV" data-testid="footer-locale-country-LV-link" tabindex="-1">Latvia</a>
+</li>
+          
+            <li class="CountryPicker__countryListItem">
+  
+    <img class="
+    Flag
+    Flag--countryLI
+    CountryPicker__countryFlagIcon
+  " src="https://images.ctfassets.net/fzn2n1nzq965/5JNjy04LAsNrA6xBh7Ao6z/0627f061f30ba1e46b9f2f8e2a0e48c1/flagIcons.svg" alt="LI" loading="lazy">
+  
+
+  <a class="
+    Link
+    
+  " href="https://stripe.com/en-li/privacy" data-js-controller="AnalyticsButton" data-analytics-category="Countries" data-analytics-action="Clicked" data-analytics-label="Liechtenstein" data-js-target-list="LocaleControl.items" data-js-metadata="country:LI" data-testid="footer-locale-country-LI-link" tabindex="-1">Liechtenstein</a>
+</li>
+          
+            <li class="CountryPicker__countryListItem">
+  
+    <img class="
+    Flag
+    Flag--countryLT
+    CountryPicker__countryFlagIcon
+  " src="https://images.ctfassets.net/fzn2n1nzq965/5JNjy04LAsNrA6xBh7Ao6z/0627f061f30ba1e46b9f2f8e2a0e48c1/flagIcons.svg" alt="LT" loading="lazy">
+  
+
+  <a class="
+    Link
+    
+  " href="https://stripe.com/en-lt/privacy" data-js-controller="AnalyticsButton" data-analytics-category="Countries" data-analytics-action="Clicked" data-analytics-label="Lithuania" data-js-target-list="LocaleControl.items" data-js-metadata="country:LT" data-testid="footer-locale-country-LT-link" tabindex="-1">Lithuania</a>
+</li>
+          
+            <li class="CountryPicker__countryListItem">
+  
+    <img class="
+    Flag
+    Flag--countryLU
+    CountryPicker__countryFlagIcon
+  " src="https://images.ctfassets.net/fzn2n1nzq965/5JNjy04LAsNrA6xBh7Ao6z/0627f061f30ba1e46b9f2f8e2a0e48c1/flagIcons.svg" alt="LU" loading="lazy">
+  
+
+  <a class="
+    Link
+    
+  " href="https://stripe.com/en-lu/privacy" data-js-controller="AnalyticsButton" data-analytics-category="Countries" data-analytics-action="Clicked" data-analytics-label="Luxembourg" data-js-target-list="LocaleControl.items" data-js-metadata="country:LU" data-testid="footer-locale-country-LU-link" tabindex="-1">Luxembourg</a>
+</li>
+          
+            <li class="CountryPicker__countryListItem">
+  
+    <img class="
+    Flag
+    Flag--countryMY
+    CountryPicker__countryFlagIcon
+  " src="https://images.ctfassets.net/fzn2n1nzq965/5JNjy04LAsNrA6xBh7Ao6z/0627f061f30ba1e46b9f2f8e2a0e48c1/flagIcons.svg" alt="MY" loading="lazy">
+  
+
+  <a class="
+    Link
+    
+  " href="https://stripe.com/en-my/privacy" data-js-controller="AnalyticsButton" data-analytics-category="Countries" data-analytics-action="Clicked" data-analytics-label="Malaysia" data-js-target-list="LocaleControl.items" data-js-metadata="country:MY" data-testid="footer-locale-country-MY-link" tabindex="-1">Malaysia</a>
+</li>
+          
+            <li class="CountryPicker__countryListItem">
+  
+    <img class="
+    Flag
+    Flag--countryMT
+    CountryPicker__countryFlagIcon
+  " src="https://images.ctfassets.net/fzn2n1nzq965/5JNjy04LAsNrA6xBh7Ao6z/0627f061f30ba1e46b9f2f8e2a0e48c1/flagIcons.svg" alt="MT" loading="lazy">
+  
+
+  <a class="
+    Link
+    
+  " href="https://stripe.com/en-mt/privacy" data-js-controller="AnalyticsButton" data-analytics-category="Countries" data-analytics-action="Clicked" data-analytics-label="Malta" data-js-target-list="LocaleControl.items" data-js-metadata="country:MT" data-testid="footer-locale-country-MT-link" tabindex="-1">Malta</a>
+</li>
+          
+            <li class="CountryPicker__countryListItem">
+  
+    <img class="
+    Flag
+    Flag--countryMX
+    CountryPicker__countryFlagIcon
+  " src="https://images.ctfassets.net/fzn2n1nzq965/5JNjy04LAsNrA6xBh7Ao6z/0627f061f30ba1e46b9f2f8e2a0e48c1/flagIcons.svg" alt="MX" loading="lazy">
+  
+
+  <a class="
+    Link
+    
+  " href="https://stripe.com/en-mx/privacy" data-js-controller="AnalyticsButton" data-analytics-category="Countries" data-analytics-action="Clicked" data-analytics-label="Mexico" data-js-target-list="LocaleControl.items" data-js-metadata="country:MX" data-testid="footer-locale-country-MX-link" tabindex="-1">Mexico</a>
+</li>
+          
+            <li class="CountryPicker__countryListItem">
+  
+    <img class="
+    Flag
+    Flag--countryNL
+    CountryPicker__countryFlagIcon
+  " src="https://images.ctfassets.net/fzn2n1nzq965/5JNjy04LAsNrA6xBh7Ao6z/0627f061f30ba1e46b9f2f8e2a0e48c1/flagIcons.svg" alt="NL" loading="lazy">
+  
+
+  <a class="
+    Link
+    
+  " href="https://stripe.com/en-nl/privacy" data-js-controller="AnalyticsButton" data-analytics-category="Countries" data-analytics-action="Clicked" data-analytics-label="Netherlands" data-js-target-list="LocaleControl.items" data-js-metadata="country:NL" data-testid="footer-locale-country-NL-link" tabindex="-1">Netherlands</a>
+</li>
+          
+            <li class="CountryPicker__countryListItem">
+  
+    <img class="
+    Flag
+    Flag--countryNZ
+    CountryPicker__countryFlagIcon
+  " src="https://images.ctfassets.net/fzn2n1nzq965/5JNjy04LAsNrA6xBh7Ao6z/0627f061f30ba1e46b9f2f8e2a0e48c1/flagIcons.svg" alt="NZ" loading="lazy">
+  
+
+  <a class="
+    Link
+    
+  " href="https://stripe.com/en-nz/privacy" data-js-controller="AnalyticsButton" data-analytics-category="Countries" data-analytics-action="Clicked" data-analytics-label="New Zealand" data-js-target-list="LocaleControl.items" data-js-metadata="country:NZ" data-testid="footer-locale-country-NZ-link" tabindex="-1">New Zealand</a>
+</li>
+          
+            <li class="CountryPicker__countryListItem">
+  
+    <img class="
+    Flag
+    Flag--countryNO
+    CountryPicker__countryFlagIcon
+  " src="https://images.ctfassets.net/fzn2n1nzq965/5JNjy04LAsNrA6xBh7Ao6z/0627f061f30ba1e46b9f2f8e2a0e48c1/flagIcons.svg" alt="NO" loading="lazy">
+  
+
+  <a class="
+    Link
+    
+  " href="https://stripe.com/en-no/privacy" data-js-controller="AnalyticsButton" data-analytics-category="Countries" data-analytics-action="Clicked" data-analytics-label="Norway" data-js-target-list="LocaleControl.items" data-js-metadata="country:NO" data-testid="footer-locale-country-NO-link" tabindex="-1">Norway</a>
+</li>
+          
+            <li class="CountryPicker__countryListItem">
+  
+    <img class="
+    Flag
+    Flag--countryPL
+    CountryPicker__countryFlagIcon
+  " src="https://images.ctfassets.net/fzn2n1nzq965/5JNjy04LAsNrA6xBh7Ao6z/0627f061f30ba1e46b9f2f8e2a0e48c1/flagIcons.svg" alt="PL" loading="lazy">
+  
+
+  <a class="
+    Link
+    
+  " href="https://stripe.com/en-pl/privacy" data-js-controller="AnalyticsButton" data-analytics-category="Countries" data-analytics-action="Clicked" data-analytics-label="Poland" data-js-target-list="LocaleControl.items" data-js-metadata="country:PL" data-testid="footer-locale-country-PL-link" tabindex="-1">Poland</a>
+</li>
+          
+            <li class="CountryPicker__countryListItem">
+  
+    <img class="
+    Flag
+    Flag--countryPT
+    CountryPicker__countryFlagIcon
+  " src="https://images.ctfassets.net/fzn2n1nzq965/5JNjy04LAsNrA6xBh7Ao6z/0627f061f30ba1e46b9f2f8e2a0e48c1/flagIcons.svg" alt="PT" loading="lazy">
+  
+
+  <a class="
+    Link
+    
+  " href="https://stripe.com/en-pt/privacy" data-js-controller="AnalyticsButton" data-analytics-category="Countries" data-analytics-action="Clicked" data-analytics-label="Portugal" data-js-target-list="LocaleControl.items" data-js-metadata="country:PT" data-testid="footer-locale-country-PT-link" tabindex="-1">Portugal</a>
+</li>
+          
+            <li class="CountryPicker__countryListItem">
+  
+    <img class="
+    Flag
+    Flag--countryRO
+    CountryPicker__countryFlagIcon
+  " src="https://images.ctfassets.net/fzn2n1nzq965/5JNjy04LAsNrA6xBh7Ao6z/0627f061f30ba1e46b9f2f8e2a0e48c1/flagIcons.svg" alt="RO" loading="lazy">
+  
+
+  <a class="
+    Link
+    
+  " href="https://stripe.com/en-ro/privacy" data-js-controller="AnalyticsButton" data-analytics-category="Countries" data-analytics-action="Clicked" data-analytics-label="Romania" data-js-target-list="LocaleControl.items" data-js-metadata="country:RO" data-testid="footer-locale-country-RO-link" tabindex="-1">Romania</a>
+</li>
+          
+            <li class="CountryPicker__countryListItem">
+  
+    <img class="
+    Flag
+    Flag--countrySG
+    CountryPicker__countryFlagIcon
+  " src="https://images.ctfassets.net/fzn2n1nzq965/5JNjy04LAsNrA6xBh7Ao6z/0627f061f30ba1e46b9f2f8e2a0e48c1/flagIcons.svg" alt="SG" loading="lazy">
+  
+
+  <a class="
+    Link
+    
+  " href="https://stripe.com/en-sg/privacy" data-js-controller="AnalyticsButton" data-analytics-category="Countries" data-analytics-action="Clicked" data-analytics-label="Singapore" data-js-target-list="LocaleControl.items" data-js-metadata="country:SG" data-testid="footer-locale-country-SG-link" tabindex="-1">Singapore</a>
+</li>
+          
+            <li class="CountryPicker__countryListItem">
+  
+    <img class="
+    Flag
+    Flag--countrySK
+    CountryPicker__countryFlagIcon
+  " src="https://images.ctfassets.net/fzn2n1nzq965/5JNjy04LAsNrA6xBh7Ao6z/0627f061f30ba1e46b9f2f8e2a0e48c1/flagIcons.svg" alt="SK" loading="lazy">
+  
+
+  <a class="
+    Link
+    
+  " href="https://stripe.com/en-sk/privacy" data-js-controller="AnalyticsButton" data-analytics-category="Countries" data-analytics-action="Clicked" data-analytics-label="Slovakia" data-js-target-list="LocaleControl.items" data-js-metadata="country:SK" data-testid="footer-locale-country-SK-link" tabindex="-1">Slovakia</a>
+</li>
+          
+            <li class="CountryPicker__countryListItem">
+  
+    <img class="
+    Flag
+    Flag--countrySI
+    CountryPicker__countryFlagIcon
+  " src="https://images.ctfassets.net/fzn2n1nzq965/5JNjy04LAsNrA6xBh7Ao6z/0627f061f30ba1e46b9f2f8e2a0e48c1/flagIcons.svg" alt="SI" loading="lazy">
+  
+
+  <a class="
+    Link
+    
+  " href="https://stripe.com/en-si/privacy" data-js-controller="AnalyticsButton" data-analytics-category="Countries" data-analytics-action="Clicked" data-analytics-label="Slovenia" data-js-target-list="LocaleControl.items" data-js-metadata="country:SI" data-testid="footer-locale-country-SI-link" tabindex="-1">Slovenia</a>
+</li>
+          
+            <li class="CountryPicker__countryListItem">
+  
+    <img class="
+    Flag
+    Flag--countryES
+    CountryPicker__countryFlagIcon
+  " src="https://images.ctfassets.net/fzn2n1nzq965/5JNjy04LAsNrA6xBh7Ao6z/0627f061f30ba1e46b9f2f8e2a0e48c1/flagIcons.svg" alt="ES" loading="lazy">
+  
+
+  <a class="
+    Link
+    
+  " href="https://stripe.com/en-es/privacy" data-js-controller="AnalyticsButton" data-analytics-category="Countries" data-analytics-action="Clicked" data-analytics-label="Spain" data-js-target-list="LocaleControl.items" data-js-metadata="country:ES" data-testid="footer-locale-country-ES-link" tabindex="-1">Spain</a>
+</li>
+          
+            <li class="CountryPicker__countryListItem">
+  
+    <img class="
+    Flag
+    Flag--countrySE
+    CountryPicker__countryFlagIcon
+  " src="https://images.ctfassets.net/fzn2n1nzq965/5JNjy04LAsNrA6xBh7Ao6z/0627f061f30ba1e46b9f2f8e2a0e48c1/flagIcons.svg" alt="SE" loading="lazy">
+  
+
+  <a class="
+    Link
+    
+  " href="https://stripe.com/en-se/privacy" data-js-controller="AnalyticsButton" data-analytics-category="Countries" data-analytics-action="Clicked" data-analytics-label="Sweden" data-js-target-list="LocaleControl.items" data-js-metadata="country:SE" data-testid="footer-locale-country-SE-link" tabindex="-1">Sweden</a>
+</li>
+          
+            <li class="CountryPicker__countryListItem">
+  
+    <img class="
+    Flag
+    Flag--countryCH
+    CountryPicker__countryFlagIcon
+  " src="https://images.ctfassets.net/fzn2n1nzq965/5JNjy04LAsNrA6xBh7Ao6z/0627f061f30ba1e46b9f2f8e2a0e48c1/flagIcons.svg" alt="CH" loading="lazy">
+  
+
+  <a class="
+    Link
+    
+  " href="https://stripe.com/en-ch/privacy" data-js-controller="AnalyticsButton" data-analytics-category="Countries" data-analytics-action="Clicked" data-analytics-label="Switzerland" data-js-target-list="LocaleControl.items" data-js-metadata="country:CH" data-testid="footer-locale-country-CH-link" tabindex="-1">Switzerland</a>
+</li>
+          
+            <li class="CountryPicker__countryListItem">
+  
+    <img class="
+    Flag
+    Flag--countryTH
+    CountryPicker__countryFlagIcon
+  " src="https://images.ctfassets.net/fzn2n1nzq965/5JNjy04LAsNrA6xBh7Ao6z/0627f061f30ba1e46b9f2f8e2a0e48c1/flagIcons.svg" alt="TH" loading="lazy">
+  
+
+  <a class="
+    Link
+    
+  " href="https://stripe.com/en-th/privacy" data-js-controller="AnalyticsButton" data-analytics-category="Countries" data-analytics-action="Clicked" data-analytics-label="Thailand" data-js-target-list="LocaleControl.items" data-js-metadata="country:TH" data-testid="footer-locale-country-TH-link" tabindex="-1">Thailand</a>
+</li>
+          
+            <li class="CountryPicker__countryListItem">
+  
+    <img class="
+    Flag
+    Flag--countryAE
+    CountryPicker__countryFlagIcon
+  " src="https://images.ctfassets.net/fzn2n1nzq965/5JNjy04LAsNrA6xBh7Ao6z/0627f061f30ba1e46b9f2f8e2a0e48c1/flagIcons.svg" alt="AE" loading="lazy">
+  
+
+  <a class="
+    Link
+    
+  " href="https://stripe.com/ae/privacy" data-js-controller="AnalyticsButton" data-analytics-category="Countries" data-analytics-action="Clicked" data-analytics-label="United Arab Emirates" data-js-target-list="LocaleControl.items" data-js-metadata="country:AE" data-testid="footer-locale-country-AE-link" tabindex="-1">United Arab Emirates</a>
+</li>
+          
+            <li class="CountryPicker__countryListItem">
+  
+    <img class="
+    Flag
+    Flag--countryGB
+    CountryPicker__countryFlagIcon
+  " src="https://images.ctfassets.net/fzn2n1nzq965/5JNjy04LAsNrA6xBh7Ao6z/0627f061f30ba1e46b9f2f8e2a0e48c1/flagIcons.svg" alt="GB" loading="lazy">
+  
+
+  <a class="
+    Link
+    
+  " href="https://stripe.com/en-gb/privacy" data-js-controller="AnalyticsButton" data-analytics-category="Countries" data-analytics-action="Clicked" data-analytics-label="United Kingdom" data-js-target-list="LocaleControl.items" data-js-metadata="country:GB" data-testid="footer-locale-country-GB-link" tabindex="-1">United Kingdom</a>
+</li>
+          
+            <li class="CountryPicker__countryListItem">
+  
+    <svg class="CountryPicker__countryCheckIcon" width="16" height="16" viewBox="0 0 16 16"><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zm3.41 4.93L6.64 9.54 5.38 8.18a.7.7 0 0 0-.87-.04.61.61 0 0 0-.18.8l1.5 2.45c.15.22.41.36.69.36.28 0 .53-.14.68-.36.24-.31 4.82-5.78 4.82-5.78.6-.6-.13-1.15-.6-.68z" fill="var(--accentColor)" fill-rule="evenodd"></path></svg>
+  
+
+  <a class="
+    Link
+    
+  " href="https://stripe.com/us/privacy" data-js-controller="AnalyticsButton" data-analytics-category="Countries" data-analytics-action="Clicked" data-analytics-label="United States" data-js-target-list="LocaleControl.items" data-js-metadata="country:US" data-testid="footer-locale-country-US-link" tabindex="-1">United States</a>
+</li>
+          
+        </ul>
+      </div>
+    </section></div>
+</div>
+              <div class="LocaleControl " data-js-controller="LocaleControl">
+  <button class="LocaleControl__trigger" data-js-target="LocaleControl.trigger" aria-label="English (United States). Choose your language" data-testid="footer-locale-language-button">
+    <svg class="LocaleControl__triggerIcon" width="16" height="16" viewBox="0 0 16 16">
+      
+          <path d="M7.5 2C10.91 2 13 4.01 13 6.5c0 2.07-1.45 3.82-3.92 4.34L6.62 13.3a.66.66 0 0 1-1.12-.46v-2.1C3.29 10.12 2 8.45 2 6.5 2 4.01 4.09 2 7.5 2z" fill="#0A2540" fill-rule="evenodd"></path>
+      
+    </svg>
+
+    <span data-js-target="LocaleControl.triggerLabel">English (United States)</span>
+  </button>
+
+  <div class="LocaleControl__popup" data-js-target="LocaleControl.popup" aria-hidden="true"><section class="LanguagePicker">
+      <section class="
+    List
+    
+    
+    
+    LanguagePicker__list
+  ">
+  <ul class="List__list">
+    
+      <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    <a class="
+    Link
+    LanguagePicker__language
+  " href="https://stripe.com/de-us/privacy" data-js-controller="AnalyticsButton" data-analytics-category="Languages" data-analytics-action="Clicked" data-analytics-label="German" data-js-target-list="LocaleControl.items" data-js-metadata="locale:de" data-testid="footer-locale-language-de-link" tabindex="-1">Deutsch</a>
+  
+
+  
+</li>
+        
+          
+          <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    <a class="
+    Link
+    LanguagePicker__language
+  " href="https://stripe.com/us/privacy" data-js-controller="AnalyticsButton" data-analytics-category="Languages" data-analytics-action="Clicked" data-analytics-label="English (United States)" data-js-target-list="LocaleControl.items" data-js-metadata="locale:en" data-testid="footer-locale-language-en-link" tabindex="-1">English (United States)</a>
+  
+
+  
+</li>
+        
+          
+          <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    <a class="
+    Link
+    LanguagePicker__language
+  " href="https://stripe.com/en-gb-us/privacy" data-js-controller="AnalyticsButton" data-analytics-category="Languages" data-analytics-action="Clicked" data-analytics-label="English (United Kingdom)" data-js-target-list="LocaleControl.items" data-js-metadata="locale:en-GB" data-testid="footer-locale-language-en-GB-link" tabindex="-1">English (United Kingdom)</a>
+  
+
+  
+</li>
+        
+          
+          <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    <a class="
+    Link
+    LanguagePicker__language
+  " href="https://stripe.com/es-419-us/privacy" data-js-controller="AnalyticsButton" data-analytics-category="Languages" data-analytics-action="Clicked" data-analytics-label="Spanish (Latin America)" data-js-target-list="LocaleControl.items" data-js-metadata="locale:es-419" data-testid="footer-locale-language-es-419-link" tabindex="-1">Español (América Latina)</a>
+  
+
+  
+</li>
+        
+          
+          <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    <a class="
+    Link
+    LanguagePicker__language
+  " href="https://stripe.com/es-us/privacy" data-js-controller="AnalyticsButton" data-analytics-category="Languages" data-analytics-action="Clicked" data-analytics-label="Spanish (Spain)" data-js-target-list="LocaleControl.items" data-js-metadata="locale:es" data-testid="footer-locale-language-es-link" tabindex="-1">Español (España)</a>
+  
+
+  
+</li>
+        
+          
+          <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    <a class="
+    Link
+    LanguagePicker__language
+  " href="https://stripe.com/fr-us/privacy" data-js-controller="AnalyticsButton" data-analytics-category="Languages" data-analytics-action="Clicked" data-analytics-label="French (France)" data-js-target-list="LocaleControl.items" data-js-metadata="locale:fr" data-testid="footer-locale-language-fr-link" tabindex="-1">Français (France)</a>
+  
+
+  
+</li>
+        
+          
+          <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    <a class="
+    Link
+    LanguagePicker__language
+  " href="https://stripe.com/fr-ca-us/privacy" data-js-controller="AnalyticsButton" data-analytics-category="Languages" data-analytics-action="Clicked" data-analytics-label="French (Canada)" data-js-target-list="LocaleControl.items" data-js-metadata="locale:fr-CA" data-testid="footer-locale-language-fr-CA-link" tabindex="-1">Français (Canada)</a>
+  
+
+  
+</li>
+        
+          
+          <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    <a class="
+    Link
+    LanguagePicker__language
+  " href="https://stripe.com/id-us/privacy" data-js-controller="AnalyticsButton" data-analytics-category="Languages" data-analytics-action="Clicked" data-analytics-label="Indonesian" data-js-target-list="LocaleControl.items" data-js-metadata="locale:id" data-testid="footer-locale-language-id-link" tabindex="-1">Bahasa Indonesia</a>
+  
+
+  
+</li>
+        
+          
+          <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    <a class="
+    Link
+    LanguagePicker__language
+  " href="https://stripe.com/it-us/privacy" data-js-controller="AnalyticsButton" data-analytics-category="Languages" data-analytics-action="Clicked" data-analytics-label="Italian" data-js-target-list="LocaleControl.items" data-js-metadata="locale:it" data-testid="footer-locale-language-it-link" tabindex="-1">Italiano</a>
+  
+
+  
+</li>
+        
+          
+          <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    <a class="
+    Link
+    LanguagePicker__language
+  " href="https://stripe.com/ja-us/privacy" data-js-controller="AnalyticsButton" data-analytics-category="Languages" data-analytics-action="Clicked" data-analytics-label="Japanese" data-js-target-list="LocaleControl.items" data-js-metadata="locale:ja" data-testid="footer-locale-language-ja-link" tabindex="-1">日本語</a>
+  
+
+  
+</li>
+        
+          
+          <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    <a class="
+    Link
+    LanguagePicker__language
+  " href="https://stripe.com/nl-us/privacy" data-js-controller="AnalyticsButton" data-analytics-category="Languages" data-analytics-action="Clicked" data-analytics-label="Dutch" data-js-target-list="LocaleControl.items" data-js-metadata="locale:nl" data-testid="footer-locale-language-nl-link" tabindex="-1">Nederlands</a>
+  
+
+  
+</li>
+        
+          
+          <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    <a class="
+    Link
+    LanguagePicker__language
+  " href="https://stripe.com/pt-br-us/privacy" data-js-controller="AnalyticsButton" data-analytics-category="Languages" data-analytics-action="Clicked" data-analytics-label="Portuguese (Brazil)" data-js-target-list="LocaleControl.items" data-js-metadata="locale:pt-BR" data-testid="footer-locale-language-pt-BR-link" tabindex="-1">Português (Brasil)</a>
+  
+
+  
+</li>
+        
+          
+          <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    <a class="
+    Link
+    LanguagePicker__language
+  " href="https://stripe.com/sv-us/privacy" data-js-controller="AnalyticsButton" data-analytics-category="Languages" data-analytics-action="Clicked" data-analytics-label="Swedish" data-js-target-list="LocaleControl.items" data-js-metadata="locale:sv" data-testid="footer-locale-language-sv-link" tabindex="-1">Svenska</a>
+  
+
+  
+</li>
+        
+          
+          <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    <a class="
+    Link
+    LanguagePicker__language
+  " href="https://stripe.com/th-us/privacy" data-js-controller="AnalyticsButton" data-analytics-category="Languages" data-analytics-action="Clicked" data-analytics-label="Thai" data-js-target-list="LocaleControl.items" data-js-metadata="locale:th" data-testid="footer-locale-language-th-link" tabindex="-1">ไทย</a>
+  
+
+  
+</li>
+        
+          
+          <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    <a class="
+    Link
+    LanguagePicker__language
+  " href="https://stripe.com/zh-cn-us/privacy" data-js-controller="AnalyticsButton" data-analytics-category="Languages" data-analytics-action="Clicked" data-analytics-label="Simplified (Mandarin) Chinese" data-js-target-list="LocaleControl.items" data-js-metadata="locale:zh-CN" data-testid="footer-locale-language-zh-CN-link" tabindex="-1">简体中文</a>
+  
+
+  
+</li>
+    
+  </ul>
+  
+</section>
+    </section></div>
+</div>
+            </div>
+          
+        </div>
+
+        <section class="
+    List
+    
+    
+    
+    SiteFooterSection__copyright
+  ">
+  <ul class="List__list">
+    
+      <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    © 2023 Stripe, Inc.
+  
+
+  
+</li>
+    
+  </ul>
+  
+</section>
+      </div>
+
+      <div class="SiteFooterSection__column">
+        <section class="
+    List
+    List--hasTitle
+    
+    
+    
+  ">
+    <h1 class="
+    CopyTitle
+    CopyTitle--variant
+    CopyTitle--inline
+    
+    
+    List__title
+  ">Products</h1>
+  
+  <ul class="List__list">
+    
+      
+        <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="/atlas" data-js-controller="AnalyticsButton" data-analytics-category="Footer" data-analytics-action="Clicked" data-analytics-label="Product" data-analytics-description="atlas" data-testid="footer-products-atlas-list-item">Atlas</a>
+  
+
+  
+</li>
+      
+        <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="/billing" data-js-controller="AnalyticsButton" data-analytics-category="Footer" data-analytics-action="Clicked" data-analytics-label="Product" data-analytics-description="billing" data-testid="footer-products-billing-list-item">Billing</a>
+  
+
+  
+</li>
+      
+        <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="/capital" data-js-controller="AnalyticsButton" data-analytics-category="Footer" data-analytics-action="Clicked" data-analytics-label="Product" data-analytics-description="capital" data-testid="footer-products-capital-list-item">Capital</a>
+  
+
+  
+</li>
+      
+        <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="/payments/checkout" data-js-controller="AnalyticsButton" data-analytics-category="Footer" data-analytics-action="Clicked" data-analytics-label="Product" data-analytics-description="checkout" data-testid="footer-products-checkout-list-item">Checkout</a>
+  
+
+  
+</li>
+      
+        <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="/climate" data-js-controller="AnalyticsButton" data-analytics-category="Footer" data-analytics-action="Clicked" data-analytics-label="Product" data-analytics-description="climate" data-testid="footer-products-climate-list-item">Climate</a>
+  
+
+  
+</li>
+      
+        <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="/connect" data-js-controller="AnalyticsButton" data-analytics-category="Footer" data-analytics-action="Clicked" data-analytics-label="Product" data-analytics-description="connect" data-testid="footer-products-connect-list-item">Connect</a>
+  
+
+  
+</li>
+      
+        <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="https://stripe.com/corporate-card" data-js-controller="AnalyticsButton" data-analytics-category="Footer" data-analytics-action="Clicked" data-analytics-label="Product" data-analytics-description="corporate-card" data-testid="footer-products-corporate-card-list-item">Corporate Card</a>
+  
+
+  
+</li>
+      
+        <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="/data-pipeline" data-js-controller="AnalyticsButton" data-analytics-category="Footer" data-analytics-action="Clicked" data-analytics-label="Product" data-analytics-description="data-pipeline" data-testid="footer-products-data-pipeline-list-item">Data Pipeline</a>
+  
+
+  
+</li>
+      
+        <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="/payments/elements" data-js-controller="AnalyticsButton" data-analytics-category="Footer" data-analytics-action="Clicked" data-analytics-label="Product" data-analytics-description="elements" data-testid="footer-products-elements-list-item">Elements</a>
+  
+
+  
+</li>
+      
+        <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="/financial-connections" data-js-controller="AnalyticsButton" data-analytics-category="Footer" data-analytics-action="Clicked" data-analytics-label="Product" data-analytics-description="financial-connections" data-testid="footer-products-elements-list-item">Financial Connections</a>
+  
+
+  
+</li>
+      
+        <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="/identity" data-js-controller="AnalyticsButton" data-analytics-category="Footer" data-analytics-action="Clicked" data-analytics-label="Product" data-analytics-description="identity" data-testid="footer-products-identity-list-item">Identity</a>
+  
+
+  
+</li>
+      
+        <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="/invoicing" data-js-controller="AnalyticsButton" data-analytics-category="Footer" data-analytics-action="Clicked" data-analytics-label="Product" data-analytics-description="invoicing" data-testid="footer-products-invoicing-list-item">Invoicing</a>
+  
+
+  
+</li>
+      
+        <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="https://stripe.com/issuing" data-js-controller="AnalyticsButton" data-analytics-category="Footer" data-analytics-action="Clicked" data-analytics-label="Product" data-analytics-description="issuing" data-testid="footer-products-issuing-list-item">Issuing</a>
+  
+
+  
+</li>
+      
+        <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="/payments/link" data-js-controller="AnalyticsButton" data-analytics-category="Footer" data-analytics-action="Clicked" data-analytics-label="Product" data-analytics-description="link" data-testid="footer-products-link-list-item">Link</a>
+  
+
+  
+</li>
+      
+        <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="/payments" data-js-controller="AnalyticsButton" data-analytics-category="Footer" data-analytics-action="Clicked" data-analytics-label="Product" data-analytics-description="payments" data-testid="footer-products-payments-list-item">Payments</a>
+  
+
+  
+</li>
+      
+        <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="/payments/payment-links" data-js-controller="AnalyticsButton" data-analytics-category="Footer" data-analytics-action="Clicked" data-analytics-label="Product" data-analytics-description="payment-links" data-testid="footer-products-payment-links-list-item">Payment Links</a>
+  
+
+  
+</li>
+      
+        <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="/connect/payouts" data-js-controller="AnalyticsButton" data-analytics-category="Footer" data-analytics-action="Clicked" data-analytics-label="Product" data-analytics-description="connect-payouts" data-testid="footer-products-connect-payouts-list-item">Payouts</a>
+  
+
+  
+</li>
+      
+        <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="https://stripe.com/pricing" data-js-controller="AnalyticsButton" data-analytics-category="Footer" data-analytics-action="Clicked" data-analytics-label="Pricing" data-testid="footer-products-pricing-list-item">Pricing</a>
+  
+
+  
+</li>
+      
+        <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="https://stripe.com/radar" data-js-controller="AnalyticsButton" data-analytics-category="Footer" data-analytics-action="Clicked" data-analytics-label="Product" data-analytics-description="radar" data-testid="footer-products-radar-list-item">Radar</a>
+  
+
+  
+</li>
+      
+        <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="/revenue-recognition" data-js-controller="AnalyticsButton" data-analytics-category="Footer" data-analytics-action="Clicked" data-analytics-label="Product" data-analytics-description="revenue-recognition" data-testid="footer-products-revenue-recognition-list-item">Revenue Recognition</a>
+  
+
+  
+</li>
+      
+        <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="https://stripe.com/sigma" data-js-controller="AnalyticsButton" data-analytics-category="Footer" data-analytics-action="Clicked" data-analytics-label="Product" data-analytics-description="sigma" data-testid="footer-products-sigma-list-item">Sigma</a>
+  
+
+  
+</li>
+      
+        <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="/tax" data-js-controller="AnalyticsButton" data-analytics-category="Footer" data-analytics-action="Clicked" data-analytics-label="Product" data-analytics-description="tax" data-testid="footer-products-tax-list-item">Tax</a>
+  
+
+  
+</li>
+      
+        <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="/terminal" data-js-controller="AnalyticsButton" data-analytics-category="Footer" data-analytics-action="Clicked" data-analytics-label="Product" data-analytics-description="terminal" data-testid="footer-products-terminal-list-item">Terminal</a>
+  
+
+  
+</li>
+      
+        <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="/treasury" data-js-controller="AnalyticsButton" data-analytics-category="Footer" data-analytics-action="Clicked" data-analytics-label="Product" data-analytics-description="treasury" data-testid="footer-products-treasury-list-item">Treasury</a>
+  
+
+  
+</li>
+      
+    
+  </ul>
+  
+</section>
+      </div>
+
+      <div class="SiteFooterSection__column">
+        
+        <section class="
+    List
+    List--hasTitle
+    
+    
+    
+  ">
+    <h1 class="
+    CopyTitle
+    CopyTitle--variant
+    CopyTitle--inline
+    
+    
+    List__title
+  ">Solutions</h1>
+  
+  <ul class="List__list">
+    
+      <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="/enterprise" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="Enterprise page" data-testid="footer-use-cases-enterprise-list-item">Enterprises</a>
+  
+
+  
+</li>
+          <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="/use-cases/saas" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="SaaS" data-testid="footer-use-cases-saas-list-item">SaaS</a>
+  
+
+  
+</li>
+          <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="/use-cases/marketplaces" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="Marketplaces" data-testid="footer-use-cases-marketplaces-list-item">Marketplaces</a>
+  
+
+  
+</li>
+          <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="/use-cases/creator-economy" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="Creator Economy" data-testid="footer-use-cases-creator-economy-list-item">Creator Economy</a>
+  
+
+  
+</li>
+          <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="/use-cases/finance-automation" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="Finance Automation" data-testid="footer-use-cases-finance-automation-list-item">Finance Automation</a>
+  
+
+  
+</li>
+          <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="/use-cases/platforms" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="Platforms" data-testid="footer-use-cases-platforms-list-item">Platforms</a>
+  
+
+  
+</li>
+          <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="/use-cases/ecommerce" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="Ecommerce" data-testid="footer-use-cases-ecommerce-list-item">Ecommerce</a>
+  
+
+  
+</li>
+          <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="/use-cases/crypto" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="Crypto" data-testid="footer-use-cases-crypto-list-item">Crypto</a>
+  
+
+  
+</li>
+          <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="/use-cases/embedded-finance" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="Embedded Finance" data-testid="footer-use-cases-embedded-finance-list-item">Embedded Finance</a>
+  
+
+  
+</li>
+          <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="/use-cases/global-businesses" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="Global businesses" data-testid="footer-company-global-businesses-list-item">
+          
+            Global Businesses
+          
+        </a>
+  
+
+  
+</li>
+    
+  </ul>
+  
+</section>
+
+        <section class="
+    List
+    List--hasTitle
+    
+    
+    
+  ">
+    <h1 class="
+    CopyTitle
+    CopyTitle--variant
+    CopyTitle--inline
+    
+    
+    List__title
+  ">Integrations &amp; Custom Solutions</h1>
+  
+  <ul class="List__list">
+    
+      
+        <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="https://marketplace.stripe.com/" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="App MarketPlace" data-testid="footer-solutions-app-marketplace-list-item">App Marketplace</a>
+  
+
+  
+</li>
+      
+        <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="/partners" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="Partner Ecosystem" data-testid="footer-solutions-partners-ecosystem-list-item">Partner Ecosystem</a>
+  
+
+  
+</li>
+      
+        <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="/professional-services" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="Professional Services" data-testid="footer-solutions-professional-services-list-item">Professional Services</a>
+  
+
+  
+</li>
+      
+    
+  </ul>
+  
+</section>
+
+        <section class="
+    List
+    List--hasTitle
+    
+    
+    
+  ">
+    <h1 class="
+    CopyTitle
+    CopyTitle--variant
+    CopyTitle--inline
+    
+    
+    List__title
+  ">Developers</h1>
+  
+  <ul class="List__list">
+    
+      
+        <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="https://stripe.com/docs" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="Docs" data-testid="footer-developers-docs-list-item">Documentation</a>
+  
+
+  
+</li>
+      
+        <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="https://stripe.com/docs/api" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="Docs API" data-testid="footer-developers-api-list-item">API Reference</a>
+  
+
+  
+</li>
+      
+        <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="https://status.stripe.com/" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="System status" data-testid="footer-developers-system-status-list-item">API Status</a>
+  
+
+  
+</li>
+      
+        <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="https://stripe.com/docs/upgrades#api-versions" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="Docs API Changelog" data-testid="footer-developers-api-changelog-list-item">API Changelog</a>
+  
+
+  
+</li>
+      
+        <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="https://stripe.com/docs/stripe-apps" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="Docs Build A Stripe App" data-testid="footer-developers-build-stripe-app-list-item">Build a Stripe App</a>
+  
+
+  
+</li>
+      
+    
+  </ul>
+  
+</section>
+      </div>
+
+      <div class="SiteFooterSection__column SiteFooterSection__column--isMobileFooterLayout">
+        <section class="
+    List
+    List--hasTitle
+    
+    
+    
+  " data-js-controller="SiteFooterSectionResourcesLinkList">
+    <h1 class="
+    CopyTitle
+    CopyTitle--variant
+    CopyTitle--inline
+    
+    
+    List__title
+  ">Resources</h1>
+  
+  <ul class="List__list">
+    
+      <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="https://support.stripe.com/?referrerLocale=en-us" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="Support request" data-testid="footer-resources-support-list-item">Support Center</a>
+  
+
+  
+</li>
+  <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="/support-plans" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="Support Plans" data-testid="footer-resources-support-plans-list-item">Support Plans</a>
+  
+
+  
+</li>
+  <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="https://stripe.com/guides" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="Education" data-testid="footer-resources-guides-list-item">Guides</a>
+  
+
+  
+</li>
+  <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="/customers" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="Customer Stories" data-testid="footer-resources-customer-stories-list-item">Customer Stories</a>
+  
+
+  
+</li>
+  <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="/blog" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="Blog" data-testid="footer-resources-blog-list-item">Blog</a>
+  
+
+  
+</li>
+  <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="/sessions" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="Sessions Annual Conference" data-testid="footer-resources-sessions-list-item">Annual Conference</a>
+  
+
+  
+</li>
+  <li class="
+    List__item
+    ListItem
+    
+    
+    
+  " data-js-target="SiteFooterSectionResourcesLinkList.contactSalesItem">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="/contact/sales" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="Contact Sales" data-testid="footer-resources-contact-sales-list-item">Contact Sales</a>
+  
+
+  
+</li>
+  
+  <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="https://stripe.com/privacy" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="Legal" data-testid="footer-resources-privacy-list-item">Privacy &amp; Terms</a>
+  
+
+  
+</li>
+  <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="https://stripe.com/spc/licenses" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="Licenses" data-testid="footer-resources-licenses-list-item">Licenses</a>
+  
+
+  
+</li>
+  <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="/covid-19" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="COVID-19" data-testid="footer-resources-covid-19-list-item">COVID-19</a>
+  
+
+  
+</li>
+  <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="/sitemap" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="Sitemap" data-testid="footer-resources-sitemap-list-item">Sitemap</a>
+  
+
+  
+</li>
+  <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="/cookie-settings" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="Cookie settings" data-testid="footer-resources-cookie-settings-list-item">Cookie settings</a>
+  
+
+  
+</li>
+  <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="/cookie-settings" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="CPRA privacy settings">Your Privacy Choices</a>
+  
+
+  
+</li>
+    
+  </ul>
+  
+</section>
+        <section class="
+    List
+    List--hasTitle
+    
+    
+    
+  ">
+    <h1 class="
+    CopyTitle
+    CopyTitle--variant
+    CopyTitle--inline
+    
+    
+    List__title
+  ">Company</h1>
+  
+  <ul class="List__list">
+    
+      <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="https://stripe.com/jobs" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="Careers" data-testid="footer-company-jobs-list-item">Jobs</a>
+  
+
+  
+</li>
+          <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="/newsroom" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="Newsroom" data-testid="footer-company-newsroom-list-item">Newsroom</a>
+  
+
+  
+</li>
+          <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="https://press.stripe.com/" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="Stripe Press" data-testid="footer-company-stripe-press-list-item">Stripe Press</a>
+  
+
+  
+</li>
+          <li class="
+    List__item
+    ListItem
+    
+    
+    
+  ">
+  
+
+  
+    
+    <a class="
+    Link
+    ListItem__label
+  " href="/partners/become-a-partner" data-js-controller="AnalyticsButton" data-analytics-category="Links" data-analytics-action="Clicked" data-analytics-label="Become A Partner" data-testid="footer-company-become-a-partner-list-item">Become a Partner</a>
+  
+
+  
+</li>
+    
+  </ul>
+  
+</section>
+      </div>
+      
+    </nav>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+    </div>
+  

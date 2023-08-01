@@ -2,3 +2,4 @@ backend/venv
 backend/wordpress/currentplugin
 backend/__pycache__
 backend/wordpress/CHKPLUG
+backend/policy/apikey.py
