@@ -55,7 +55,8 @@ def get_download(plugin: str) -> str:
 def download_unzip(url: str) -> None:
     req = requests.get(url, stream=True)
     zf = zipfile.ZipFile(BytesIO(req.content))
-    shutil.rmtree("currentplugin")
+    if os.path.exists("currentplugin"):
+        shutil.rmtree("currentplugin")
     zf.extractall(path="currentplugin")
     zf.close()    
     tbc = os.listdir("currentplugin")[0]
