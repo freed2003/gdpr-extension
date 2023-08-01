@@ -3,3 +3,6 @@ backend/wordpress/currentplugin
 backend/__pycache__
 backend/wordpress/CHKPLUG
 backend/policy/apikey.py
+backend/policy/__pycache__
+backend/policy/htmltotext/__pycache__
+backend\policy\temp.txt

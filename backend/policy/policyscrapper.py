@@ -28,4 +28,4 @@ def parse(url: str) -> str:
     pp = Preprocessor("temp.txt")
     return "\n".join(pp.parse())
 
-print(parse("https://stripe.com/privacy"))
+print(parse("https://google.com"))
