@@ -1,4 +1,6 @@
 backend/venv
+backend/currentplugin
 backend/wordpress/currentplugin
 backend/__pycache__
+backend/wordpress/__pycache__
 backend/wordpress/CHKPLUG
