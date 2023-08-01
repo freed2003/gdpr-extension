@@ -2,5 +2,10 @@
     "manifest_version": 3,
     "name": "GDPR Compliance Checker",
     "description": "Checks GDPR Compliance",
-    "version": "1.0"
+    "version": "1.0",
+    "action": {
+        "default_popup": "index.html"
+    },
+    "permissions": ["activeTab"],
+    "serverUrl": "http://127.0.0.1:5000"
 }

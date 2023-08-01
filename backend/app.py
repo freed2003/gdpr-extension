@@ -1,4 +1,4 @@
-from flask import Flask, request
+from flask import Flask, make_response, request
 from api import wpcheck, policycheck
 
 app = Flask(__name__)
@@ -13,3 +13,8 @@ def check():
     wpcheck = wpcheck(url)
     policycheck = policycheck(url)
     return res
+
+@app.after_request
+def cors_yeeter(response):
+    response.headers['Access-Control-Allow-Origin'] = '*'
+    return response

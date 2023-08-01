@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+html, body {
+    min-width: 350px;
+    min-height: 250px;
+    margin: 0 auto;
+    padding: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+
+@media (prefers-color-scheme: dark) {
+    html, body {
+        background-color: #242424;
+        color: white;
+    }
+}
+
+.status {
+    text-align: center;
+}
+
+.status[data-compliant="true"] {
+    color: #31d67b;
+}
+
+.status[data-compliant="false"] {
+    color: #d63147;
+}
+
+.status .status-small, .status-is {
+    display: block;
+}
+
+.status .status-small {
+    font-size: 28px;
+}
+
+.status .status-is {
+    font-size: 56px;
+    text-transform: uppercase;
+}
+
+.status .status-small:last-of-type::after {
+    content: ".";
+}
+
+.status[data-compliant="true"] .status-small:last-of-type::after {
+    content: " :D";
+}
+
+.status[data-compliant="false"] .status-small:last-of-type::after {
+    content: " :(";
+}
