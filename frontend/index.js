@@ -2,6 +2,8 @@
 
 const statusElement = document.getElementById("status")
 const statusIsElement = document.getElementById("status-is")
+const articlesFoundElement = document.getElementById("articles-found")
+const articlesFollowedElement = document.getElementById("articles-followed")
 
 function setUnknownCompliance() {
     document.querySelector(".status .status-small:first-of-type").innerText = "This site has"
@@ -9,7 +11,8 @@ function setUnknownCompliance() {
     document.querySelector(".status .status-small:last-of-type").innerText = "GDPR compliance"
 }
 
-(async () => {
+
+;(async () => {
     try {
         let queryOptions = { active: true, lastFocusedWindow: true }
         let [tab] = await chrome.tabs.query(queryOptions)
@@ -27,6 +30,9 @@ function setUnknownCompliance() {
         } else {
             setUnknownCompliance()
         }
+
+        articlesFoundElement.innerText += `Articles Found ${res.articlesFound}/99`
+        articlesFollowedElement.innerText += `Articles Followed ${res.articlesFollowed}/99`
     } catch (e) {
         console.log(e)
         setUnknownCompliance()

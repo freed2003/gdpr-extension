@@ -52,3 +52,14 @@ html, body {
 .status[data-compliant="false"] .status-small:last-of-type::after {
     content: " :(";
 }
+
+.articles-wrapper {
+    display: flex;
+    margin-top: 20px;
+}
+
+.article-column {
+    width: 50%;
+    text-align: center;
+    font-size: 20px;
+}
